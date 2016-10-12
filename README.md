@@ -5,4 +5,4 @@ This page is my personal page instead to Bervianto Leo Pratama. Welcome to my pa
 # More Info About Me
 
 * Project Euler Username : bervianto.leo
-* Github Dashbord - My Github Account : [berviantoleo](https://github.com/berviantoleo)
+* e-mail : [bervianto.leo@gmail.com](mailto:bervianto.leo@gmail.com)
