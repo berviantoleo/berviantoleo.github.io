@@ -1,0 +1,34 @@
+.center{
+	text-align: center;
+}
+
+table, tr, td{
+	border: none;
+}
+
+.line-mes{
+	background-image: url('https://cloud.githubusercontent.com/assets/2850757/17083931/896acc6a-51af-11e6-9fb1-65cdae27786d.png');
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	margin: unset;
+	padding: unset;
+}
+
+.vcenter{
+	vertical-align: middle;
+}
+
+.the-project{
+
+}
+
+.the-project .title{
+	vertical-align: top;
+	font-size: 20px;
+	padding: 2px 0;
+}
+
+.the-project .brief-ex{
+	vertical-align: top;
+}
