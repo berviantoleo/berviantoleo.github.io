@@ -7,7 +7,7 @@ layout: default
 <h2>{{ page.title }}</h2>
 <div class="jekmdl-post-content">
 <div class="jekmdl-crumbs mdl-color-text--grey-500">
-{{ site.time | date_to_long_string }} &gt; {% if page.author %}{{ page.author }}{% endif %}
+{{ page.date | date: '%d %B %Y' }} &gt; {% if page.author %}{{ page.author }}{% endif %}
 </div>
 {{ content }}
 </div>
