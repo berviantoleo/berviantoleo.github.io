@@ -1,41 +1,66 @@
-# Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Bervianto Leo Pratama Blog
+###################################
+# Site wide configuration
+####################################
+#
+title: Bervianto Leo Pratama Profile
 email: bervianto.leo@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Blog Github Milik Bervianto Leo Pratama
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://berviantoleo.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+description: A simple and awesome blog theme powered by jekyll.
+url: https://berviantoleo.github.io/ # the base hostname & protocol for your site
 
-# Google cse -> read the README.md for learn more.
-gcse: 006270711061491111331:vsivtajjjh0
 
-# Conversion
-markdown:    kramdown
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Jakarta
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Outputting
-relative_permalinks: false
-permalink:     /articles/:title.html
-timezone:      Asia/Jakarta
-
-# Markdown Processors
 kramdown:
-   input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Exclude file
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
-  - bower_components
-  - node_modules
-  - vendor
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Bervianto Leo Pratama
+  avatar: bervianto.jpg
+  job: "Mobile & Web Developer"
+  bio: "Backend & frontend is me."
+  email: bervianto.leo@gmail.com
+  disqus-shortname: berviantoleopratama
+  twitter: berviantoleo #username
+  facebook: bervianto.leo #username
+  google:
+    plus: BerviantoLeoPratama #username
+    analytics: 
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: berviantoleo #username
+  stackoverflow: 6948591/bervianto-leo-pratama #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: bervianto-leo-pratama #username
+  xing: #username
+  instagram: bervianto.leo #username
+  lastfm: berviantoleo #username
+  tumblr: #username
+  pinterest: berviantoleo #username
+  foursquare: #username
+  steam: cyber-name #username
+  dribbble: #username
+  youtube: BerviantoLeoPratama #username
+  soundcloud: bervianto-leo-pratama #username
+  weibo: #username
+  flickr: #username
+  codepen: #username

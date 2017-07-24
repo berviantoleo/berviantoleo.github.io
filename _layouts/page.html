@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
-<div class="jekmdl-crumbs mdl-color-text--grey-500">
-<a href="{{ site.url }}">{{ site.title }}</a> &gt; <a href="{{post.url}}">{{ page.title }}</a>
-</div>
-<h3>{{ page.title }}</h3>
-<div class="jekmdl-post-content">
-{{ content }}
-</div>
+
+  <div id="page">
+    <header class="page-header">
+      <h2>{{ page.title }}</h2>
+    </header>
+
+    <article class="page-content">
+      {{ content }}
+    </article>
+
+
+  </div><!-- end page content -->
+
+
+  {% if site.owner.disqus-shortname and page.comments == true %}
+  <div id="disqus_thread"></div>
+  {% include disqus.html %}
+  {% endif %}

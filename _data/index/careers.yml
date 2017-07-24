@@ -1,0 +1,16 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Suitmedia
+  link: https://www.suitmedia.com/
+  date: 29 May 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i> Now
+  job: Mobile Developer Internship
+
+- name: STEI (Sekolah Teknik Elektro dan Informatika) ITB
+  link: http://www.stei.itb.ac.id/
+  date: October 2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i> Now
+  job: Network Administrator
+
+- name: Pyhsics Laboratory
+  link: http://lfd.fmipa.itb.ac.id/
+  date: January 2017 - May 2017
+  job: Basic Physics Laboratory Assistant
