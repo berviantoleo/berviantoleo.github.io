@@ -1,6 +1,14 @@
 ---
 title: Cerita Upgrade Linux Mint 17.3 ke Linux Mint 18
 date: 2016-10-27 00:00:00 +07:00
+categories:
+- Daily Life
+- Linux
+- Technology
+tags:
+- daily-life
+- linux
+- technology
 layout: post
 ---
 
