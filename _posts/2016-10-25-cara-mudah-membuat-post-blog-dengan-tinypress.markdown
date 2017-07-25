@@ -1,6 +1,11 @@
 ---
 title: Cara Mudah Membuat Post Blog dengan TinyPress
 date: 2016-10-25 00:00:00 +07:00
+categories:
+- Tips
+- Technology
+tags:
+- tips
 layout: post
 ---
 
