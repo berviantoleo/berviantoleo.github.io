@@ -1,8 +1,9 @@
 ---
-published: true
 title: Cara Mudah Membuat Post Blog dengan TinyPress
+date: 2016-10-25 00:00:00 +07:00
 layout: post
 ---
+
 Halo! Ini merupakan postingan pertama saya.
 
 Dalam postingan ini saya ingin menjelaskan cara mudah membuat post blog dengan TinyPress. Berikut ini langkah-langkah pembuatannya.

@@ -1,8 +1,9 @@
 ---
-published: true
 title: Cerita Upgrade Linux Mint 17.3 ke Linux Mint 18
+date: 2016-10-27 00:00:00 +07:00
 layout: post
 ---
+
 ## [Edisi Upgrade Linux Mint]
 
 Ah bosen Linux Mint 17.3 gak bisa install aplikasi versi baru. Upgrade aja. Fix upgrade.
