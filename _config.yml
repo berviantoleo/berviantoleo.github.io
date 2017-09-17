@@ -11,6 +11,7 @@ collections:
 email: bervianto.leo@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
 url: https://berviantoleo.github.io
+keywords: ["Android", "Mobile", "Web"]
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "<!--more-->"
@@ -53,3 +54,4 @@ owner:
   weibo: 
   flickr: 
   codepen: 
+  telegram: berviantoleo
