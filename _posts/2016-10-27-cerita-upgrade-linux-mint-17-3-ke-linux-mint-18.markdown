@@ -10,6 +10,7 @@ tags:
 - linux
 - technology
 layout: post
+comments: true
 ---
 
 ## [Edisi Upgrade Linux Mint]
@@ -21,6 +22,8 @@ Ah bosen Linux Mint 17.3 gak bisa install aplikasi versi baru. Upgrade aja. Fix 
 Waduh, paketnya ada yang bentrok. Kayaknya bakal susah ini benerinnya.
 
 > ... (Selesai upgrade)
+
+<!--more-->
 
 Wah, udah. Restart ah. Waduh! Keren banget boot screennya.
 

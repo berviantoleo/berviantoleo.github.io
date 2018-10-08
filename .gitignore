@@ -1,4 +1,4 @@
-_site
-.sass-cache
-_drafts
-.ruby-version
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

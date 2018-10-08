@@ -7,11 +7,14 @@ categories:
 tags:
 - tips
 layout: post
+comments: true
 ---
 
 Halo! Ini merupakan postingan pertama saya.
 
 Dalam postingan ini saya ingin menjelaskan cara mudah membuat post blog dengan TinyPress. Berikut ini langkah-langkah pembuatannya.
+
+<!--more-->
 
 1. Buka [tinypress.co](https://tinypress.co). Klik Join ... Writers!
 
