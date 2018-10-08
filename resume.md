@@ -1,4 +1,5 @@
 ---
-title: 'Resume'
+title: Resume
 layout: main
 ---
+
