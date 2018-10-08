@@ -1,0 +1,57 @@
+<section class="hero is-warning is-fullheight is-fullheight-with-navbar">
+    <div class="hero-head">
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        <h1 class="title">{{ site.title }}</h1>
+                    </a>
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        {% for page in site.pages %}
+                        {% if page.title %}
+                        <a href="{{page.url}}" class="navbar-item">
+                            {{ page.title }}
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <article class="media">
+                <figure class="media-left">
+                    <p class="image is-64x64">
+                        <img src="/img/bervianto.jpg" />
+                    </p>
+                </figure>
+                <div class="media-content">
+                    <div class="content">
+                        <h1 class="title">
+                            {{ site.owner.job }}
+                        </h1>
+                        <h2 class="subtitle">
+                            {{ site.owner.bio }}
+                        </h2>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+    <div class="hero-foot">
+        {% include component/social-links.html %}
+    </div>
+</section>
