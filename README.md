@@ -11,3 +11,7 @@ Dependencies:
 
 1. Run `npm run build` first
 2. Enjoy your web!
+
+## LICENSE
+
+The source code is licensed [MIT](http://opensource.org/licenses/mit-license.php). The website content is licensed [CC BY NC SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
