@@ -1,0 +1,36 @@
+---
+title: Archive
+permalink: "/archive/"
+layout: main
+---
+
+<section id="archive" class="section">
+    <div class="container">
+        <div class="timeline">
+            {% for post in site.posts %}
+            {% unless post.next %}
+            <header class="timeline-header">
+                <span class="tag is-primary">{{ post.date | date: '%Y' }}</span>
+            </header>
+
+            {% else %}
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+            {% if year != nyear %}
+            <header class="timeline-header">
+                <span class="tag is-primary">{{ post.date | date: '%Y' }}</span>
+            </header>
+
+            {% endif %}
+            {% endunless %}
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <p class="heading">{{post.date | date: "%b %-d" }}</p>
+                    <p><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

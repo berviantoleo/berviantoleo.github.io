@@ -87,9 +87,15 @@ owner:
 # to override the default setting.
 exclude:
 - old/
-#   - Gemfile
-# - Gemfile.lock
-- node_modules
+- src/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- .sass-cache
+- lib/
+- package-lock.json
+- package.json
+- webpack.config.js
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
