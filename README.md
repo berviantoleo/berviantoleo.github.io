@@ -2,6 +2,10 @@
 
 Dependencies:
 
-* Bulma
+* Bulma (production)
+* Webpack (dev only)
 
-Build using Webpack
+## How to Deploy
+
+1. Run `npm run build` first
+2. Enjoy your web!
