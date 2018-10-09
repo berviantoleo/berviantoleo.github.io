@@ -64,6 +64,8 @@ owner:
 exclude:
 - old/
 - src/
+- README.md
+- LICENSE
 # - Gemfile
 - Gemfile.lock
 - node_modules/
