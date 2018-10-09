@@ -62,7 +62,6 @@ owner:
   codepen: 
   telegram: berviantoleo
 exclude:
-- old/
 - src/
 - README.md
 - LICENSE
