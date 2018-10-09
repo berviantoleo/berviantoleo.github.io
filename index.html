@@ -22,12 +22,15 @@ layout: main
                                 <time datetime="{{ post.date }}">{{ post.date }}</time>
                             </a>
                         </h2>
-                        {% for cat in post.categories %}
-                        <span class="tag"><a href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a></span>
-                        {% unless forloop.last %}
-                        <span>/</span>
-                        {% endunless %}
-                        {% endfor %}
+
+                        <nav class="breadcrumb" aria-label="breadcrumbs">
+                            <ul>
+                                {% for cat in post.categories %}
+                                <li><a href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+
                         <div class="content is-small">
                             {% if post.excerpt %}
                             <p>
