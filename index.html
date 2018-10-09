@@ -7,8 +7,9 @@ layout: main
     <div class="container">
         <div class="columns is-multiline">
             {% for post in site.posts %}
-            <div class="column is-one-quarter">
+            <div class="column is-half">
                 <div class="card">
+                    <!--
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <a href="{{ post.url }}">
@@ -16,6 +17,7 @@ layout: main
                             </a>
                         </figure>
                     </div>
+                    -->
                     <div class="card-content">
                         <h1><a class="title" href="{{ post.url }}">{{ post.title }}</a></h1>
                         <h2><a class="subtitle" href="{{ post.url }}">
