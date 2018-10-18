@@ -1,5 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Xtremax Indonesia
+  link: https://xtremax.com
+  date: August 2018 - Now
+  job: Backend Developer
+
 - name: eDaun
   link: https://www.edaun.com
   date: December 2017 - Now
