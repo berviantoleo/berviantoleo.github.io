@@ -3,8 +3,6 @@ rvm:
   - 2.4.1
 
 before_script:
- - gem install
- - bundle install
  - npm run build
 
 # Assume bundler is being used, therefore
