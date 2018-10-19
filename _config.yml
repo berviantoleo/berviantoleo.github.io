@@ -73,6 +73,7 @@ exclude:
 - package-lock.json
 - package.json
 - webpack.config.js
+- vendor/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
