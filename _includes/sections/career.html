@@ -1,4 +1,4 @@
-<h1 class="title"><span data-i18n="skills.my_skills">Bio</span></h1>
+<h1 class="title"><span data-i18n="skills.my_skills">Work Experience</span></h1>
 
 <div class="timeline">
   {% for career in site.data.index.careers %}
@@ -6,7 +6,11 @@
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <p class="heading">{{ career.date }}</p>
-      <p>{{ career.job }} @ <a href="{{ career.link }}">{{ career.name }}</a></p>
+      <p>
+        <h3 class="title">{{ career.job }}</h3>
+        <h4 class="subtitle">@ <a href="{{ career.link }}">{{ career.name }}</a></h4>
+        <p class="content">{{ career.description }}</p>
+      </p>
     </div>
   </div>
   {% endfor %}

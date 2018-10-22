@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Motivation, Android, Java, Node.js, Javascript, Python
-percentage: 100, 80, 80, 80, 70, 70
+aspects: Motivation, Android, Java, Node.js, Javascript, Python, Mobile Application, Web Application
+percentage: 100, 80, 80, 80, 70, 70, 80, 85
