@@ -1,12 +1,14 @@
 <h1 class="title"><span data-i18n="skills.my_skills">Education</span></h1>
 
 <div class="timeline">
-    {% for career in site.data.index.education %}
+    {% for education in site.data.index.education %}
     <div class="timeline-item">
         <div class="timeline-marker"></div>
         <div class="timeline-content">
-          <p class="heading">{{ career.date }}</p>
-          <p><a href="{{ career.link }}">{{ career.name }}</a></p>
+          <p class="heading">{{ education.date }}</p>
+          <p>
+            <h3 class="title">{{ education.level }}</h3>
+            <h4 class="subtitle"><a href="{{ education.link }}">{{ education.name }}</a></h4></p>
         </div>
       </div>
     {% endfor %}
