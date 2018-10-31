@@ -10,7 +10,7 @@ collections:
     output: true
 email: bervianto.leo@gmail.com
 description: Personal Website of Bervianto Leo Pratama
-baseurl: ''
+baseurl: 'https://berviantoleo.github.io'
 url: ''
 keywords:
 - Android
