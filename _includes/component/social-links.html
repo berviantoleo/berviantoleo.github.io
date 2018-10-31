@@ -1,64 +1,81 @@
 <script type="text/javascript">
-  // based on http://stackoverflow.com/a/10300743/280842
-  function gen_mail_to_link(hs, subject) {
-    var lhs, rhs;
-    var p = hs.split('@');
-    lhs = p[0];
-    rhs = p[1];
-    document.write("<a class=\"button\" target=\"_blank\" href=\"mailto");
-    document.write(":" + lhs + "@");
-    document.write(rhs + "?subject=" + subject + "\"><span class=\"icon\"><i class=\"fa fa-envelope\"></i></span><\/a>");
-  }
+      // based on http://stackoverflow.com/a/10300743/280842
+      function gen_mail_to_link(hs, subject) {
+            var lhs, rhs;
+            var p = hs.split('@');
+            lhs = p[0];
+            rhs = p[1];
+            document.write("<a target=\"_blank\" href=\"mailto");
+            document.write(":" + lhs + "@");
+            document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-envelope\"></i><\/a>");
+      }
 </script>
 <section class="section">
-  <div class="container">
-    <h1 class="title">Connect with Me</h1>
-    <div class="field has-addons">
-      {% if author.email %}
-      <p class="control">
-        <script>gen_mail_to_link('{{ author.email }}', 'Hello from website');</script>
-      </p>
-      {% endif %}
-      {% if author.twitter %}<p class="control"><a class="button" href="http://twitter.com/{{ author.twitter }}" target="_blank"><i
-            class="fab fa-twitter"></i></a></p>{% endif %}
-      {% if author.facebook %}<p class="control"><a href="http://facebook.com/{{ author.facebook }}" class="button" target="_blank"><i
-            class="fab fa-facebook"></i></a></p>{% endif %}
-      {% if author.google.plus %}<p class="control"><a href="http://plus.google.com/+{{ author.google.plus }}" class="button"
-          target="_blank"><i class="fab fa-google-plus"></i></a></p>{% endif %}
-      {% if author.linkedin %}<p class="control"><a href="http://linkedin.com/in/{{ author.linkedin }}" class="button"
-          target="_blank"><i class="fab fa-linkedin"></i></a></p>{% endif %}
-      {% if author.xing %}<p class="cotrol"><a href="http://www.xing.com/profile/{{ author.xing }}" class="button" target="_blank"><i
-            class="fab fa-xing"></i></a></p>{% endif %}
-      {% if author.instagram %}<p class="control"><a href="http://instagram.com/{{ author.instagram }}" class="button"
-          target="_blank"><i class="fab fa-instagram"></i></a></p>{% endif %}
-      {% if author.tumblr %}<p class="control"><a href="http://{{ author.tumblr }}.tumblr.com" class="button" target="_blank"><i
-            class="fab fa-tumblr"></i></a></p>{% endif %}
-      {% if author.github %}<p class="control"><a href="http://github.com/{{ author.github }}" class="button" target="_blank"><i
-            class="fab fa-github"></i></a></p>{% endif %}
-      {% if author.stackoverflow %}<p class="control"><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="button"
-          target="_blank"><i class="fab fa-stack-overflow"></i></a></p>{% endif %}
-      {% if author.lastfm %}<p class="control"><a href="http://lastfm.com/user/{{ author.lastfm }}" class="button" target="_blank"><i
-            class="fab fa-lastfm"></i></a></p>{% endif %}
-      {% if author.dribbble %}<p class="control"><a href="http://dribbble.com/{{ author.dribbble }}" class="button" target="_blank"><i
-            class="fab fa-dribbble"></i></a></p>{% endif %}
-      {% if author.pinterest %}<p class="control"><a href="http://www.pinterest.com/{{ author.pinterest }}" class="button"
-          target="_blank"><i class="fab fa-pinterest"></i></a></p>{% endif %}
-      {% if author.foursquare %}<p class="control"><a href="http://foursquare.com/{{ author.foursquare }}" class="button"
-          target="_blank"><i class="fab fa-foursquare"></i></a></p>{% endif %}
-      {% if author.steam %}<p class="control"><a href="http://steamcommunity.com/id/{{ author.steam }}" class="button"
-          target="_blank"><i class="fab fa-steam"></i></a></p>{% endif %}
-      {% if author.youtube %}<p class="control"><a href="https://youtube.com/c/{{ author.youtube }}" class="button" target="_blank"><i
-            class="fab fa-youtube"></i></a></p>{% endif %}
-      {% if author.soundcloud %}<p class="control"><a href="http://soundcloud.com/{{ author.soundcloud }}" class="button"
-          target="_blank"><i class="fab fa-soundcloud"></i></a></p>{% endif %}
-      {% if author.weibo %}<p class="control"><a href="http://www.weibo.com/{{ author.weibo }}" class="button" target="_blank"><i
-            class="fab fa-weibo"></i></a></p>{% endif %}
-      {% if author.flickr %}<p class="control"><a href="http://www.flickr.com/{{ author.flickr }}" class="button" target="_blank"><i
-            class="fab fa-flickr"></i></a></p>{% endif %}
-      {% if author.codepen %}<p class="control"><a href="http://codepen.io/{{ author.codepen }}" class="button" target="_blank"><i
-            class="fab fa-codepen"></i></a></p>{% endif %}
-      {% if author.telegram %}<p class="control"><a href="https://t.me/{{ author.telegram }}" class="button" target="_blank"><i
-            class="fab fa-telegram"></i></a></p>{% endif %}
-    </div>
-  </div>
+      <div class="container">
+            <h1 class="title">Connect Me</h1>
+            <nav class="tabs">
+                  <div class="container">
+                        <ul>
+                              {% if author.email %}
+                              <li>
+                                    <script>gen_mail_to_link('{{ author.email }}', 'Hello from website');</script>
+                              </li>
+                              {% endif %}
+                              {% if author.twitter %}<li><a href="http://twitter.com/{{ author.twitter }}" target="_blank"><i
+                                                class="fab fa-twitter"></i></a></li>{%
+                              endif %}
+                              {% if author.facebook %}<li><a href="http://facebook.com/{{ author.facebook }}" target="_blank"><i
+                                                class="fab fa-facebook"></i></a></li>{%
+                              endif %}
+                              {% if author.google.plus %}<li><a href="http://plus.google.com/+{{ author.google.plus }}"
+                                          target="_blank"><i class="fab fa-google-plus"></i></a></li>{% endif
+                              %}
+                              {% if author.linkedin %}<li><a href="http://linkedin.com/in/{{ author.linkedin }}" target="_blank"><i
+                                                class="fab fa-linkedin"></i></a></li>{%
+                              endif %}
+                              {% if author.xing %}<p class="cotrol"><a href="http://www.xing.com/profile/{{ author.xing }}"
+                                          target="_blank"><i class="fab fa-xing"></i></a></li>{% endif %}
+                                    {% if author.instagram %}<li><a href="http://instagram.com/{{ author.instagram }}"
+                                                target="_blank"><i class="fab fa-instagram"></i></a></li>{% endif %}
+                                    {% if author.tumblr %}<li><a href="http://{{ author.tumblr }}.tumblr.com" target="_blank"><i
+                                                      class="fab fa-tumblr"></i></a></li>{%
+                                    endif %}
+                                    {% if author.github %}<li><a href="http://github.com/{{ author.github }}" target="_blank"><i
+                                                      class="fab fa-github"></i></a></li>{%
+                                    endif %}
+                                    {% if author.stackoverflow %}<li><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}"
+                                                target="_blank"><i class="fab fa-stack-overflow"></i></a></li>{%
+                                    endif %}
+                                    {% if author.lastfm %}<li><a href="http://lastfm.com/user/{{ author.lastfm }}"
+                                                target="_blank"><i class="fab fa-lastfm"></i></a></li>{% endif %}
+                                    {% if author.dribbble %}<li><a href="http://dribbble.com/{{ author.dribbble }}"
+                                                target="_blank"><i class="fab fa-dribbble"></i></a></li>{% endif %}
+                                    {% if author.pinterest %}<li><a href="http://www.pinterest.com/{{ author.pinterest }}"
+                                                target="_blank"><i class="fab fa-pinterest"></i></a></li>{%
+                                    endif %}
+                                    {% if author.foursquare %}<li><a href="http://foursquare.com/{{ author.foursquare }}"
+                                                target="_blank"><i class="fab fa-foursquare"></i></a></li>{%
+                                    endif %}
+                                    {% if author.steam %}<li><a href="http://steamcommunity.com/id/{{ author.steam }}"
+                                                target="_blank"><i class="fab fa-steam"></i></a></li>{% endif %}
+                                    {% if author.youtube %}<li><a href="https://youtube.com/c/{{ author.youtube }}"
+                                                target="_blank"><i class="fab fa-youtube"></i></a></li>{% endif %}
+                                    {% if author.soundcloud %}<li><a href="http://soundcloud.com/{{ author.soundcloud }}"
+                                                target="_blank"><i class="fab fa-soundcloud"></i></a></li>{%
+                                    endif %}
+                                    {% if author.weibo %}<li><a href="http://www.weibo.com/{{ author.weibo }}" target="_blank"><i
+                                                      class="fab fa-weibo"></i></a></li>{%
+                                    endif %}
+                                    {% if author.flickr %}<li><a href="http://www.flickr.com/{{ author.flickr }}"
+                                                target="_blank"><i class="fab fa-flickr"></i></a></li>{% endif %}
+                                    {% if author.codepen %}<li><a href="http://codepen.io/{{ author.codepen }}" target="_blank"><i
+                                                      class="fab fa-codepen"></i></a></li>{%
+                                    endif %}
+                                    {% if author.telegram %}<li><a href="https://t.me/{{ author.telegram }}" target="_blank"><i
+                                                      class="fab fa-telegram"></i></a></li>{%
+                                    endif %}
+                        </ul>
+                  </div>
+            </nav>
+      </div>
 </section>
