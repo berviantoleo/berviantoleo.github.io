@@ -10,8 +10,8 @@ collections:
     output: true
 email: bervianto.leo@gmail.com
 description: Personal Website of Bervianto Leo Pratama
-baseurl: 'https://berviantoleo.github.io'
-url: 'https://berviantoleo.github.io'
+baseurl: https://berviantoleo.github.io
+url: https://berviantoleo.github.io
 keywords:
 - Android
 - Mobile
@@ -65,24 +65,14 @@ exclude:
 - src/
 - README.md
 - LICENSE
-# - Gemfile
 - Gemfile.lock
 - node_modules/
-- .sass-cache
+- ".sass-cache"
 - lib/
 - package-lock.json
 - package.json
 - webpack.config.js
 - vendor/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-############################################################
-# Site configuration for the Jekyll 3 Pagination Gem
-# The values here represent the defaults if nothing is set
-
 pagination:
   enabled: false
   debug: false
