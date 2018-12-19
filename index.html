@@ -21,7 +21,7 @@ layout: main
                     <div class="card-content">
                         <h1><a class="title" href="{{ post.url }}">{{ post.title }}</a></h1>
                         <h2><a class="subtitle" href="{{ post.url }}">
-                                <time datetime="{{ post.date }}">{{ post.date }}</time>
+                                <time datetime="{{ post.date | date: "%c" }}">{{ post.date | date: "%c" }}</time>
                             </a>
                         </h2>
 
