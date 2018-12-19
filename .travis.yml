@@ -22,7 +22,17 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-sudo: false # route your build to the container-based infrastructure for a faster build
+deploy:
+  provider: pages
+  local-dir: ./_site
+  target-branch: gh-pages
+  email: bervianto.leo@gmail.com
+  name: Bervianto Leo Pratama
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
 
 cache: bundler # caching bundler gem packages will speed up build
 
