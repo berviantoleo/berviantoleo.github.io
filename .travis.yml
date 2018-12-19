@@ -25,14 +25,14 @@ addons:
 deploy:
   provider: pages
   local-dir: ./_site
-  target-branch: gh-pages
+  target-branch: master
   email: bervianto.leo@gmail.com
   name: Bervianto Leo Pratama
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
-    branch: master
+    branch: development
 
 cache: bundler # caching bundler gem packages will speed up build
 
