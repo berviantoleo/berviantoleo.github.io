@@ -6,6 +6,7 @@ categories:
 - Experience
 tags:
 - daily-life
+layout: post
 ---
 
 Terima kasih Tuhan! Thanks God!
