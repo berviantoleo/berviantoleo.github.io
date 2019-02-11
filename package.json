@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/berviantoleo/berviantoleo.github.io#readme",
   "devDependencies": {
-    "bulma": "0.7.2",
+    "bulma": "0.7.4",
     "css-loader": "2.1.0",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
     "node-sass": "4.11.0",
