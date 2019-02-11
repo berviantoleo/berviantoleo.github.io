@@ -35,7 +35,7 @@
     "standard": "12.0.1",
     "style-loader": "0.23.1",
     "webpack": "4.29.1",
-    "webpack-cli": "3.2.1"
+    "webpack-cli": "3.2.3"
   },
   "dependencies": {
     "bulma-extensions": "^4.0.1"
