@@ -38,6 +38,6 @@
     "webpack-cli": "3.2.1"
   },
   "dependencies": {
-    "bulma-extensions": "^4.0.1"
+    "bulma-extensions": "^4.1.0"
   }
 }
