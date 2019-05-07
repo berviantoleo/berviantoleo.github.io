@@ -38,7 +38,9 @@ deploy:
   on:
     branch: development
 
-cache: bundler # caching bundler gem packages will speed up build
+cache:
+  - bundler # caching bundler gem packages will speed up build
+  - npm
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:
