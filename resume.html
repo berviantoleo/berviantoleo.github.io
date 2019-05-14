@@ -48,60 +48,58 @@
     <header>
     
 
-<section class="hero is-warning is-fullheight is-fullheight-with-navbar">
-    <div class="hero-head">
-        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="container">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="/">
-                        <h1 class="title">Bervianto L Pratama</h1>
-                    </a>
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <h1 class="title">Bervianto L Pratama</h1>
+      </a>
 
-                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>
-
-                <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-end">
-                        
-                        
-                        
-                        
-                        <a href="/archive/" class="navbar-item">
-                            Archive
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/categories/" class="navbar-item">
-                            Categories
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/resume" class="navbar-item">
-                            Resume
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/" class="navbar-item">
-                            Tags
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-        </nav>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+      </a>
     </div>
 
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+            
+              
+            
+              
+                <a href="/archive/" class="navbar-item">
+                   Archive
+                </a>
+              
+            
+              
+            
+              
+                <a href="/categories/" class="navbar-item">
+                   Categories
+                </a>
+              
+            
+              
+            
+              
+                <a href="/resume" class="navbar-item">
+                   Resume
+                </a>
+              
+            
+              
+                <a href="/tags/" class="navbar-item">
+                   Tags
+                </a>
+              
+            
+        </div>
+    </div>
+</nav>
+
+<section class="hero is-primary is-fullheight-with-navbar">
     <div class="hero-body">
         <div class="container has-text-centered">
             <article class="media">
@@ -353,7 +351,7 @@
 <script>
     var ctx = document.getElementById("cs");
     var data = {
-    labels: "Motivation, Mobile Application Development (Android), Web Application Development".split(","),
+    labels: "Motivation, Mobile App Dev, Web App Dev, Networking, Administration".split(","),
     datasets: [{
         label: "Ability",
         backgroundColor: "rgba(179,181,198,0.2)",
@@ -362,7 +360,7 @@
         pointBorderColor: "#fff",
         pointHoverBackgroundColor: "#3385FF",
         pointHoverBorderColor: "#3385FF",
-        data: [100, 80, 85]
+        data: [100, 80, 85, 80, 80]
         }]
     };
     var myRadarChart = new Chart(ctx, {
@@ -386,6 +384,9 @@
                     <h1 class="title"><span data-i18n="skills.my_skills">Work Experience</span></h1>
 
 <div class="timeline">
+  <header class="timeline-header">
+    <span class="tag is-primary">Now</span>
+  </header>
   
   <div class="timeline-item">
     <div class="timeline-marker"></div>
@@ -459,33 +460,42 @@
     </div>
   </div>
   
+  <header class="timeline-header">
+    <span class="tag is-primary">Born</span>
+  </header>
 </div>
                 </div>
                 <div class="content">
                     <h1 class="title"><span data-i18n="skills.my_skills">Education</span></h1>
 
-<div class="timeline">
-    
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">July 2014 - July 2018</p>
-          <p>
-            <h3 class="title">Bachelor of Science in Informatics</h3>
-            <h4 class="subtitle"><a href="http://www.itb.ac.id">Institut Teknologi Bandung</a></h4></p>
-        </div>
+<div class="timeline">  
+  <header class="timeline-header">
+    <span class="tag is-primary">Now</span>
+  </header>
+  
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <p class="heading">July 2014 - July 2018</p>
+        <p>
+          <h3 class="title">Bachelor of Science in Informatics</h3>
+          <h4 class="subtitle"><a href="http://www.itb.ac.id">Institut Teknologi Bandung</a></h4></p>
       </div>
-    
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">2011 - 2014</p>
-          <p>
-            <h3 class="title">High School</h3>
-            <h4 class="subtitle"><a href="http://www.sman1tanjungpandan.sch.id">SMA Negeri 1 Tanjungpandan</a></h4></p>
-        </div>
+    </div>
+  
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <p class="heading">2011 - 2014</p>
+        <p>
+          <h3 class="title">High School</h3>
+          <h4 class="subtitle"><a href="http://www.sman1tanjungpandan.sch.id">SMA Negeri 1 Tanjungpandan</a></h4></p>
       </div>
-    
+    </div>
+      
+  <header class="timeline-header">
+    <span class="tag is-primary">Born</span>
+  </header>
 </div>
                 </div>
             </div>
@@ -495,15 +505,19 @@
 </section>
 
     <footer class="footer">
-    <div class="content has-text-centered">
-        <p>
-            © <strong>My Personal Web</strong> by <a href="https://berviantoleo.github.io">Bervianto Leo Pratama</a>. The source
-            code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-    </div>
+  <div class="content has-text-centered">
+    <p>
+      © <strong>My Personal Web</strong> by
+      <a href="https://berviantoleo.github.io">Bervianto Leo Pratama</a>. The source code is
+      licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+      The website content is licensed
+      <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        >CC BY NC SA 4.0</a
+      >.
+    </p>
+  </div>
 </footer>
+
 
     <script type="text/javascript" src="https://berviantoleo.github.io/assets/app.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
