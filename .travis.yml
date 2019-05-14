@@ -7,13 +7,13 @@ before_install:
   - gem install bundler
 
 before_script:
- - npm install
- - npm run build
+ - yarn
+ - yarn build
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:
-  - npm test
+  - yarn test
   - bundle exec jekyll build
 # - bundle exec htmlproofer ./_site --disable-external
 
@@ -40,7 +40,7 @@ deploy:
 
 cache:
   - bundler # caching bundler gem packages will speed up build
-  - npm
+  - yarn
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:

@@ -6,7 +6,7 @@ layout: main
 
 <section id="archive" class="section">
     <div class="container">
-        <div class="timeline">
+        <div class="timeline is-centered">
             {% for post in site.posts %}
             {% unless post.next %}
             <header class="timeline-header">
@@ -31,6 +31,9 @@ layout: main
                 </div>
             </div>
             {% endfor %}
+            <header class="timeline-header">
+                <span class="tag is-primary">Start</span>
+            </header>
         </div>
     </div>
 </section>
