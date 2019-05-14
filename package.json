@@ -1,6 +1,6 @@
 {
   "name": "berviantoleo.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal Web",
   "main": "webpack.config.js",
   "directories": {
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/berviantoleo/berviantoleo.github.io#readme",
   "devDependencies": {
     "bulma": "0.7.4",
+    "bulma-extensions": "^6.2.5",
     "css-loader": "2.1.1",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
     "node-sass": "4.12.0",
@@ -37,7 +38,9 @@
     "webpack": "4.31.0",
     "webpack-cli": "3.3.2"
   },
-  "dependencies": {
-    "bulma-extensions": "^6.2.5"
-  }
+  "maintainers": [{
+    "email": "bervianto.leo@gmail.com",
+    "name": "Bervianto Leo Pratama",
+    "url": "https://berviantoleo.github.io"
+  }]
 }

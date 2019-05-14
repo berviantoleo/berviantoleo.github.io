@@ -1,6 +1,6 @@
 # skills section data
 
 label: Ability
-id : cs
-aspects: Motivation, Mobile Application Development (Android), Web Application Development
-percentage: 100, 80, 85
+id: cs
+aspects: Motivation, Mobile App Dev, Web App Dev, Networking, Administration
+percentage: 100, 80, 85, 80, 80
