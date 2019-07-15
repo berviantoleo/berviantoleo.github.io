@@ -36,7 +36,7 @@
     "standard": "^13.0.2",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.6"
   },
   "maintainers": [{
     "email": "bervianto.leo@gmail.com",
