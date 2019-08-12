@@ -30,17 +30,22 @@
     "bulma": "^0.7.5",
     "bulma-extensions": "^6.2.7",
     "css-loader": "^3.2.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "sass-loader": "^7.2.0",
     "standard": "^13.1.0",
     "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^1.4.1",
     "webpack": "^4.39.1",
+    "webpack-bundle-analyzer": "^3.4.1",
     "webpack-cli": "^3.3.6"
   },
-  "maintainers": [{
-    "email": "bervianto.leo@gmail.com",
-    "name": "Bervianto Leo Pratama",
-    "url": "https://berviantoleo.github.io"
-  }]
+  "maintainers": [
+    {
+      "email": "bervianto.leo@gmail.com",
+      "name": "Bervianto Leo Pratama",
+      "url": "https://berviantoleo.github.io"
+    }
+  ]
 }
