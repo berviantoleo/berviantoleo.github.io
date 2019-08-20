@@ -47,5 +47,10 @@
       "name": "Bervianto Leo Pratama",
       "url": "https://berviantoleo.github.io"
     }
-  ]
+  ],
+  "standard": {
+    "ignore": [
+      "dist/**/*.js"
+    ]
+  }
 }
