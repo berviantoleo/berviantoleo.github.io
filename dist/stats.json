@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.41.0",
-  "hash": "50671629b044b28c9f62",
-  "time": 3300,
-  "builtAt": 1570182219518,
+  "hash": "a8632feb62f0e3d6298f",
+  "time": 3268,
+  "builtAt": 1570834838759,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
@@ -88,7 +88,7 @@
         "css/mystyles.css",
         "js/bundle.js"
       ],
-      "hash": "ed03eb6fb2e09dd0c8ff",
+      "hash": "f2e3caa1371c8f42c15f",
       "siblings": [
       ],
       "parents": [
@@ -454,7 +454,7 @@
           "files": [
             "*"
           ],
-          "hash": "9eedf30ec3b50ffc8838",
+          "hash": "2a908e05fd97a64c8048",
           "siblings": [
           ],
           "parents": [
