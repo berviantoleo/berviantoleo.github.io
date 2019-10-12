@@ -3,10 +3,10 @@
   ],
   "warnings": [
   ],
-  "version": "4.41.0",
+  "version": "4.41.1",
   "hash": "a8632feb62f0e3d6298f",
-  "time": 3268,
-  "builtAt": 1570834838759,
+  "time": 2908,
+  "builtAt": 1570853253496,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
