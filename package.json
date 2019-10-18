@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/berviantoleo/berviantoleo.github.io#readme",
   "devDependencies": {
-    "bulma": "^0.7.5",
+    "bulma": "^0.8.0",
     "bulma-extensions": "^6.2.7",
     "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
