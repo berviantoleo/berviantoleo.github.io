@@ -76,7 +76,7 @@ pagination:
   enabled: true
   debug: false
   collection: posts
-  per_page: 5
+  per_page: 4
   permalink: page/:num/
   title: ":title - page :num of :max"
   limit: 0
