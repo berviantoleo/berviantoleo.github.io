@@ -1,12 +1,14 @@
 ---
 permalink: "/"
 layout: main
+pagination:
+  enabled: true
 ---
 
 <section id="blog-post" class="section">
     <div class="container">
         <div class="columns is-multiline">
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
             <div class="column is-half">
                 <div class="card">
                     <!--
@@ -45,5 +47,15 @@ layout: main
             </div>
             {% endfor %}
         </div>
+        {% if paginator.total_pages > 1 %}
+        <nav class="pagination" role="navigation" aria-label="pagination">
+            {% if paginator.previous_page %}
+            <a class="pagination-previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+            {% endif %}
+            {% if paginator.next_page %}
+            <a class="pagination-next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+            {% endif %}
+        </nav>
+        {% endif %}
     </div>
 </section>
