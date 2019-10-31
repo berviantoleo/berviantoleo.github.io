@@ -17,7 +17,7 @@
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
             {% for page in site.pages %}
-              {% if page.title %}
+              {% if page.title and page.autogen == nil %}
                 <a href="{{page.url}}" class="navbar-item">
                    {{ page.title }}
                 </a>
@@ -27,7 +27,7 @@
     </div>
 </nav>
 
-<section class="hero is-primary is-fullheight-with-navbar">
+<section class="hero is-primary is-fullheight-with-navbar header-image">
     <div class="hero-body">
         <div class="container has-text-centered">
             <article class="media">

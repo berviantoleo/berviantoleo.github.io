@@ -10,8 +10,8 @@ collections:
     output: true
 email: bervianto.leo@gmail.com
 description: Personal Website of Bervianto Leo Pratama
-baseurl: https://berviantoleo.github.io
-url: https://berviantoleo.github.io
+# baseurl: http://localhost:4000
+# url: https://berviantoleo.github.io
 keywords:
 - Android
 - Mobile
@@ -73,12 +73,12 @@ exclude:
 - webpack.config.js
 - vendor/
 pagination:
-  enabled: false
+  enabled: true
   debug: false
   collection: posts
-  per_page: 10
+  per_page: 5
   permalink: page/:num/
-  title: ":title - page :num"
+  title: ":title - page :num of :max"
   limit: 0
   sort_field: date
   sort_reverse: true

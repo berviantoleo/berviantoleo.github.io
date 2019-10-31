@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "npm run fix-lint && webpack --mode production",
+    "build": "yarn fix-lint && webpack --mode production",
     "test": "standard",
     "fix-lint": "standard --fix"
   },
