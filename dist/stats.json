@@ -5,8 +5,8 @@
   ],
   "version": "4.41.2",
   "hash": "ee73fceb00730bfde3fd",
-  "time": 3293,
-  "builtAt": 1573184412144,
+  "time": 3051,
+  "builtAt": 1573185262768,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
