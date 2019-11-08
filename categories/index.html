@@ -233,7 +233,21 @@
 </section>
 
     <footer class="footer">
-  <section class="section">
+  <script type="text/javascript">
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs, rhs;
+    var p = hs.split("@");
+    lhs = p[0];
+    rhs = p[1];
+    document.write('<a class="icon" target="_blank" href="mailto');
+    document.write(":" + lhs + "@");
+    document.write(
+      rhs + "?subject=" + subject + '"><i class="fa fa-envelope"></i><\/a>'
+    );
+  }
+</script>
+<section class="section">
   <div class="container">
     <h1 class="title">Connect Me</h1>
     <div class="buttons">
@@ -355,20 +369,6 @@
     </div>
   </div>
 </section>
-<script type="text/javascript">
-  // based on http://stackoverflow.com/a/10300743/280842
-  function gen_mail_to_link(hs, subject) {
-    var lhs, rhs;
-    var p = hs.split("@");
-    lhs = p[0];
-    rhs = p[1];
-    document.write('<a class="icon" target="_blank" href="mailto');
-    document.write(":" + lhs + "@");
-    document.write(
-      rhs + "?subject=" + subject + '"><i class="fa fa-envelope"></i><\/a>'
-    );
-  }
-</script>
 
   <section class="section">
     <div class="content has-text-centered">
