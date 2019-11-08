@@ -9,11 +9,10 @@ layout: main
         <div class="columns is-multiline">
                 <div class="column is-half">
                         <div class="box">
-                            <div class="columns is-multiline">
                                     {% for tag in site.tags %}
-                                    <div class="column">
-                                    <div class="box">
                                         {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                                        <div class="content">
+
                                         <h1 class="title" id="{{ tag_name | slugize }}">{{ tag_name }}</h5>
                                             <div class="tags">
                                                 {% for post in site.tags[tag_name] %}
@@ -22,13 +21,8 @@ layout: main
                                                 </span>
                                                     {% endfor %}
                                             </div>
-                                    </div>
-                                    </div>
-        
+                                        </div>        
                                     {% endfor %}
-                                
-        
-                            </div>
                                 </div>
                     </div>    
             <div class="column is-half">
