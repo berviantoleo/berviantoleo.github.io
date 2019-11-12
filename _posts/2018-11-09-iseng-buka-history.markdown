@@ -7,6 +7,7 @@ tags:
 - experience
 - life
 layout: post
+comments: true
 ---
 
 Jadi, kali ini mau posting iseng aja. Iseng-iseng mau buka history apa yang berkaitan dengan nama gua atau nama akun gua. Diawali ah, coba googling dengan keyword berviantoleo. Di sana ya keluar beberapa tentang akun Github dan beberapa hal lainnya.
