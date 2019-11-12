@@ -4,6 +4,7 @@ date: 2018-12-25 18:47:00 +07:00
 categories:
 - Experience
 layout: post
+comments: true
 ---
 
 Thank you God!
