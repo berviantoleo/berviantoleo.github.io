@@ -7,6 +7,7 @@ categories:
 tags:
 - daily-life
 layout: post
+comments: true
 ---
 
 Terima kasih Tuhan! Thanks God!
