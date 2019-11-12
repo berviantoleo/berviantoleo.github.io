@@ -7,6 +7,7 @@ tags:
 - experience
 - daily-life
 layout: post
+comments: true
 ---
 
 Thank you lord for this day! You want me to have new heart and new spirit! I never expected before, I think I will bored and just have a neutral feel about a Word of God in short day 22 until 24 December. No! God love you! God want you have new heart new spirit! Yes, I never expected as I say before. My heart, I think that I have closed to much so I can feel anything about Word of God.
