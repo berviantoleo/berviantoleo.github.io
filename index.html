@@ -21,11 +21,11 @@ pagination:
                     </div>
                     -->
                     <div class="card-content">
-                        <h1><a class="title" href="{{ post.url }}">{{ post.title }}</a></h1>
-                        <h2><a class="subtitle" href="{{ post.url }}">
+                        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+                        <a class="subtitle" href="{{ post.url }}">
                                 <time datetime="{{ post.date | date: "%c" }}">{{ post.date | date: "%c" }}</time>
                             </a>
-                        </h2>
+                        
 
                         <nav class="breadcrumb" aria-label="breadcrumbs">
                             <ul>
