@@ -21,12 +21,10 @@ pagination:
                     </div>
                     -->
                     <div class="card-content">
-                        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-                        <a class="subtitle" href="{{ post.url }}">
+                        <h2><a class="title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <h3><a class="subtitle" href="{{ post.url }}">
                                 <time datetime="{{ post.date | date: "%c" }}">{{ post.date | date: "%c" }}</time>
-                            </a>
-                        
-
+                            </a></h3>
                         <nav class="breadcrumb" aria-label="breadcrumbs">
                             <ul>
                                 {% for cat in post.categories %}
