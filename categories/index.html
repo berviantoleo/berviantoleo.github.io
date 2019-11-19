@@ -11,7 +11,7 @@ layout: main
       <div class="column is-one-third">
         <div class="box">
           {% capture cat_name %}{{ cat | first }}{% endcapture %}
-          <h1 class="title" id="{{ cat_name | slugize }}">{{ cat_name }}</h5>
+          <h2 class="title" id="{{ cat_name | slugize }}">{{ cat_name }}</h2>
             <span class="tags">
               {% for post in site.categories[cat_name] %}
               <span class="tag">
