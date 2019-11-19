@@ -9,9 +9,19 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/bundle.js'
+    filename: 'js/[name].bundle.js',
+    chunkFilename: 'js/[name].bundle.js'
   },
   optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendor',
+          chunks: 'initial'
+        }
+      }
+    },
     minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
   module: {
