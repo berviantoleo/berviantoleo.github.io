@@ -8,8 +8,8 @@
   ],
   "version": "4.41.2",
   "hash": "b382a4068c81d1b16d17",
-  "time": 6576,
-  "builtAt": 1574494452195,
+  "time": 6152,
+  "builtAt": 1575005358054,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
