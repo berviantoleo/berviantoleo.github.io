@@ -30,7 +30,6 @@
     "@fortawesome/fontawesome-free": "^5.12.0",
     "bulma": "^0.8.0",
     "bulma-extensions": "^6.2.7",
-    "chart.js": "^2.9.3",
     "css-loader": "^3.4.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.0",
