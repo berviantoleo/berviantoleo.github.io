@@ -285,12 +285,7 @@
                 </div> 
             </div>
 
-            <div class="column is-4">
-                <div class="content">
-                    <h1><span data-i18n="skills.my_skills">Skills</span></h1>
-<canvas id="cs" height="500" width="500"></canvas>
-
-                </div>
+            <div class="column is-4">                
                 <div class="content">
                     <h1 class="title"><span data-i18n="skills.my_skills">Work Experience</span></h1>
 
@@ -567,40 +562,6 @@
 
   gtag('config', 'UA-151909976-1');
 </script>
-
-
-
-<script>
-  var ctx = document.getElementById("cs");
-  var data = {
-  labels: "Motivation, Mobile App Dev, Web App Dev, Networking, Administration".split(","),
-  datasets: [{
-      label: "Ability",
-      backgroundColor: "rgba(179,181,198,0.2)",
-      borderColor: "#3385FF",
-      pointBackgroundColor: "#3385FF",
-      pointBorderColor: "#fff",
-      pointHoverBackgroundColor: "#3385FF",
-      pointHoverBorderColor: "#3385FF",
-      data: [100, 80, 85, 80, 80]
-      }]
-  };
-  var myRadarChart = new window.Chart(ctx, {
-  type: 'radar',
-  data: data,
-  options: {
-      scale: {
-          responsive: true,
-          ticks: {min: 0, max: 100},
-          lineArc: false,
-          pointLabels: {fontSize: 14},
-      },
-      scaleFontSize: 0,
-      legend: {display: false},
-  }
-  });
-</script>
-
 
 </body>
 
