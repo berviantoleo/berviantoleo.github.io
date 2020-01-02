@@ -1,6 +1,10 @@
 <script defer type="text/javascript" src="{{ site.url }}/dist/js/main.bundle.js"></script>
 <script defer type="text/javascript" src="{{ site.url }}/dist/js/vendor.bundle.js"></script>
 
+{% if site.owner.google.adMob %}
+<script data-ad-client="{{ site.owner.google.adMob }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{% endif %}
+
 {% if site.owner.google.analytics %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.owner.google.analytics }}"></script>
