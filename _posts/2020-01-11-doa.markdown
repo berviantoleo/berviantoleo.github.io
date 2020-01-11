@@ -9,7 +9,6 @@ tags:
 - bible
 - truth
 layout: post
-comments: true
 ---
 
 # Outline dari Buku Doa (Lessons on Prayer) - Witness Lee
@@ -20,6 +19,8 @@ comments: true
 #### 1. Doa adalah Saling Kontak Antara Manusia Dengan Allah
 #### 2. Doa adalah Manusia Menghirup Allah, Mendapatkan Allah dan Didapatkan Allah
 #### 3. Doa adalah Manusia Berkerja Sama dengan Allah, Membiarkan Allah Mengekspresikan Diri-Nya Sendiri dan Kehendak-Nya Melalui Manusia, untuk Menggenapkan Kehendak-Nya
+
+<!--more-->
 
 ## II. Prinsip Doa
 ### A. Doa Harus Dimulai dari Allah, Bukan dari Manusia
