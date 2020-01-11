@@ -9,6 +9,7 @@ tags:
 - bible
 - truth
 layout: post
+comments: true
 ---
 
 # Outline dari Buku Doa (Lessons on Prayer) - Witness Lee
