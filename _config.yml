@@ -10,8 +10,6 @@ collections:
     output: true
 email: bervianto.leo@gmail.com
 description: Personal Website of Bervianto Leo Pratama
-# baseurl: http://localhost:4000
-# url: https://berviantoleo.github.io
 keywords:
 - Android
 - Mobile
