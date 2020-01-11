@@ -1,0 +1,53 @@
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+
+<nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <h1 class="title">{{ site.title }}</h1>
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+            {% for page in site.pages %}
+              {% if page.title and page.autogen == nil %}
+                <a href="{{page.url}}" class="navbar-item">
+                   {{ page.title }}
+                </a>
+              {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</nav>
+
+<section class="hero is-primary is-fullheight-with-navbar header-image">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <article class="media">
+                <figure class="media-left">
+                    <p class="image is-128x128">
+                        <img class="is-rounded" src="{{ site.url }}/img/bervianto.jpg" />
+                    </p>
+                </figure>
+                <div class="media-content">
+                    <div class="content">
+                        <h2 class="title">
+                            {{ site.owner.job }}
+                        </h2>
+                        <h3 class="subtitle">
+                            {{ site.owner.bio }}
+                        </h3>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>    
+</section>

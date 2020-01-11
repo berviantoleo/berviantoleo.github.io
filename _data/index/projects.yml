@@ -1,0 +1,27 @@
+- name: berviantoleo.github.io
+  descr: "My Personal Page"
+  github: https://github.com/berviantoleo/berviantoleo.github.io
+
+- name: Tweet Tweety
+  descr: "Twitter Tweet Analyzer build in ASP.NET and C#."
+  github: https://github.com/berv-uni-project/tweety
+
+- name: Scheduler OP
+  descr: "Web Application build in Django Framework (Python) to scheduling subject in University. Using some algorithm like Hill Climbing, Simulated Annealing, and Genetic Algorithm."
+  github: https://github.com/berv-uni-project/scheduler-op
+
+- name: Belitung Information Center
+  descr: "Belitung Information Center in Mobile Application (Android/iOS) build in IONIC 2."
+  github: https://github.com/bervProject/belitung-information-center
+  
+- name: Learn Android
+  descr: "Android Application to learn how build simple Android App. Using some recommend library, like Retrofit 2.0, Realm, Butterknife, etc."
+  github: https://github.com/bervProject/learn-android
+  
+- name: You Can Use It
+  descr: "Mobile Application using AIR (Flash), build in Starling and Feather UI."
+  github: https://github.com/bervProject/You-Can-Use-It
+
+- name: Frog Archiver
+  descr: "Desktop Application build in QT and C++ for archiving your files and compress files."
+  github: https://github.com/berv-uni-project/Frog-Archiver

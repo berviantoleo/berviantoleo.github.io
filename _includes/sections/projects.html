@@ -1,0 +1,27 @@
+<h1 class="title"><span data-i18n="skills.my_skills">Projects</span></h1>
+
+{% for project in site.data.index.projects %}
+<div class="columns">
+    <div class="column">
+        <div class="box">
+            <div class="content">
+                <h2 class="title">{{ project.name }}</h2>
+                <p class="content">{{ project.descr }}</p>
+
+                {% if project.github %}
+                <a class="button" href="{{ project.github }} ">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>GitHub</span>
+                </a>
+                {% endif %}
+                {% if project.website %}
+                <a class="button" href="{{ project.website }} ">
+                    <span class="icon"><i class="fa fa-home"></i></span>
+                    <span>Homepage</span>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

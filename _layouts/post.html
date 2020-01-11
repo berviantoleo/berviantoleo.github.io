@@ -1,0 +1,76 @@
+---
+layout: main
+---
+
+<section class="section">
+    <div class="container">
+        {% if page.image.feature %}
+        <div class="post-image-feature">
+            <img class="feature-image" src={% if page.image.feature contains 'https' or page.image.feature contains
+                'http' %} "{{ page.image.feature }}" {% else %} "{{ site.url }}/img/{{ page.image.feature }}" {% endif
+                %} alt="{{ page.title }} feature image">
+
+            {% if page.image.credit %}
+            <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+            {% endif %}
+        </div><!-- /.image-wrap -->
+        {% endif %}
+
+
+        <div class="box" id="post">
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                            {{ page.title }}
+                        </h1>
+                        <h2 class="subtitle">
+                            {{ page.date | date: "%-d %b %Y" | upcase }} • {% include component/read_time.html %}
+                        </h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="content">
+                    {{ content }}
+                </div>
+            </section>
+
+            <section class="section">
+                <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                    {% if page.previous %}
+                    <a href="{{page.previous.url}}" class="pagination-previous">Previous</a>
+                    {% else %}
+                    <a class="pagination-previous" disabled>Previous</a>
+                    {% endif %}
+                    {% if page.next %}
+                    <a href="{{page.next.url}}" class="pagination-next">Next</a>
+                    {% else %}
+                    <a class="pagination-next" disabled>Next</a>
+                    {% endif %}
+                </nav>
+            </section>
+            <div class="box">
+                <h1 class="title">Share on: </h6>
+                    <p class="buttons">
+                        <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="button is-primary"
+                            title="Share on Twitter"><span class="icon"><i class="fab fa-twitter"></i></span><span>
+                                Twitter</span></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="button is-link"
+                            title="Share on Facebook"><span class="icon"><i class="fab fa-facebook"></i></span><span>
+                                Facebook</span></a>                        
+                    </p>
+            </div><!-- end share-buttons -->
+
+            {% if site.owner.disqus-shortname and page.comments == true %}
+            <section class="section">
+                <div class="box">
+                    <div id="disqus_thread"></div>
+                    {% include component/disqus.html %}
+                </div>
+            </section>
+            {% endif %}
+
+        </div>
+</section>

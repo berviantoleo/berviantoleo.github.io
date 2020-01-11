@@ -1,289 +1,31 @@
+---
+layout: 
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bervianto L</title>
-    <description>Personal Website of Bervianto Leo Pratama</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jan 2020 08:26:24 +0700</pubDate>
-    <lastBuildDate>Sat, 11 Jan 2020 08:26:24 +0700</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>25 December 2018</title>
-        <description>&lt;p&gt;Thank you God!&lt;/p&gt;
-
-&lt;p&gt;Hari ini saya pergi ke Ciwidey. Cukup bagus. :)&lt;/p&gt;
-
-&lt;p&gt;Ini ada sedikit foto-fotonya.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;img src=&quot;/uploads/IMG-20181225-WA0007.jpg&quot; alt=&quot;IMG-20181225-WA0007.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ini bersama saudara-saudari muda gereja di Bandung.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/uploads/IMG-20181225-WA0011.jpg&quot; alt=&quot;IMG-20181225-WA0011.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ini juga, lebih ramai ya! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/uploads/IMG_20181225_085536_HDR.jpg&quot; alt=&quot;IMG_20181225_085536_HDR.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nah, kalau ini pemandangannya!&lt;/p&gt;
-
-&lt;p&gt;Sukacita bisa bersama-sama mereka. Puji Tuhan!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Dec 2018 18:47:00 +0700</pubDate>
-        <link>/articles/2018-12/25-december-2018</link>
-        <guid isPermaLink="true">/articles/2018-12/25-december-2018</guid>
-        
-        
-        <category>Experience</category>
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Thanks God</title>
-        <description>&lt;p&gt;Terima kasih Tuhan! Thanks God!&lt;/p&gt;
-
-&lt;p&gt;Saya sangat bersyukur atas setiap yang Tuhan berikan kepada saya. Saya bisa hidup hingga saat ini untuk mengganti unsur manusia lamaku menjadi unsur manusia baru.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Kehidupan Tubuh terus menjagaku hingga saat ini. Saya tidak bisa secara asal mengabaikan atas setiap perkataan yang pernah saya dapatkan untuk membangun Tubuh Kristus. Puji Tuhan!&lt;/p&gt;
-
-&lt;p&gt;Saya tidak tahu jika hingga saat ini saya tidak ada di Kehidupan Gereja. Kenapa? Bisa saja saya sudah ada di tempat yang sangat gelap dan tidak bisa lagi melihat terang-Nya dan kasih-Nya.&lt;/p&gt;
-
-&lt;p&gt;Tuhan begitu baik kepada kita, walaupun kita tidak memberikan yang terbaik pada-Nya, Tuhan tetap mengasihi kita. Walaupun kita sering sekali lupa pada-Nya, Tuhan tetap mengasihi kita.&lt;/p&gt;
-
-&lt;p&gt;Tuhan, aku bersyukur hingga saat ini bisa tetap terawat. Saya tidak bisa terus menerus hanya menerima, tetapi saya perlu memberi dan menyebarluaskan Kristus. Puji Tuhan!&lt;/p&gt;
-
-&lt;p&gt;Nikmat apa yang bisa saya dustakan? Tuhan telah memberikan segala sesuatu kepada kita, mengapa kita tidak? O, Tuhan Yesus! Semoga saya segera menerapkan dan mengalami seperti &lt;strong&gt;&lt;em&gt;koor&lt;/em&gt;&lt;/strong&gt; dalam suatu kidung yaitu&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Sia-pa s’perti Kau yang cantik sungguh.
-Sia-pa s’perti Kau yang manis sungguh.
-Kau berhak dapatkan s’mua cintaku.
-Tuhan Yesus ku cinta-Mu.
-Tak lagi tertipu p’rasaanku.
-Tak lagi percaya si-tua-si-ku.
-Ku hanya tahu mengasihi-Mu.
-Tuhan Yesus ku cinta-Mu
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 25 Dec 2018 18:31:00 +0700</pubDate>
-        <link>/articles/2018-12/thanks-god</link>
-        <guid isPermaLink="true">/articles/2018-12/thanks-god</guid>
-        
-        <category>daily-life</category>
-        
-        
-        <category>Daily Life</category>
-        
-        <category>Experience</category>
-        
-      </item>
-    
-      <item>
-        <title>Lord Give Me New Heart and New Spirit</title>
-        <description>&lt;p&gt;Thank you lord for this day! You want me to have new heart and new spirit! I never expected before, I think I will bored and just have a neutral feel about a Word of God in short day 22 until 24 December. No! God love you! God want you have new heart new spirit! Yes, I never expected as I say before. My heart, I think that I have closed to much so I can feel anything about Word of God.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Praise the Lord! God never leave you! In 22-25 December, I meet many young man and also each of The Body of Christ. Why many (!) here? I very enjoy with the meetings. There are many young man enjoy and praise the Lord with full of our strength, full of our soul, full of our mind.&lt;/p&gt;
-
-&lt;p&gt;I feel very enjoy when How We Should Love Him! God give us a heart to love Him! Oh Lord Jesus! Why in much time I give my time with another than You! I just know what is Love, but I looks like not love Him, maybe I looks like love Him but not really love Him. So pity I am. :(&lt;/p&gt;
-
-&lt;p&gt;You know, when you fall in love with someone, you will bring your time to her/him, right? Why you not give your time to your God? You must give time to Him! You have 24 hours in a day. I hope no one says “I’m not having a time”. Oh Lord Jesus, from now we should back to the Lord, say we Love Him! We must bring time to Him. Young man have many times and many strengths to Love Him! Maybe we don’t have many materials to be use for God’s Work. But we have time!&lt;/p&gt;
-
-&lt;p&gt;I hope we all always enjoy him, keep our spirit, love Him with all of what we have. Praise The Lord!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Dec 2018 18:11:00 +0700</pubDate>
-        <link>/articles/2018-12/lord-give-me-new-heart-and-new-spirit</link>
-        <guid isPermaLink="true">/articles/2018-12/lord-give-me-new-heart-and-new-spirit</guid>
-        
-        <category>experience</category>
-        
-        <category>daily-life</category>
-        
-        
-        <category>Experience</category>
-        
-      </item>
-    
-      <item>
-        <title>Iseng Buka History</title>
-        <description>&lt;p&gt;Jadi, kali ini mau posting iseng aja. Iseng-iseng mau buka history apa yang berkaitan dengan nama gua atau nama akun gua. Diawali ah, coba googling dengan keyword berviantoleo. Di sana ya keluar beberapa tentang akun Github dan beberapa hal lainnya.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Eh, ada ketemu satu web yang mention nama akun berviantoleo. Oalah, jadi inget pernah dimention. :v Sekedar review sedikit, jadi itu ya karena gua ikutan suatu ajang bernama Besut Kode. Gua masih noob mencoba ikutan ajang ini karena penasaran kok ada menyinggung &lt;strong&gt;&lt;em&gt;open source&lt;/em&gt;&lt;/strong&gt;. Ya gua ikutan ini karena mau coba bisa melakukan berbagai tantangan dan berusaha belajar banyak dari sini.&lt;/p&gt;
-
-&lt;p&gt;Jadi kurang lebih ini menceritakan di sisi gua. Kan ada di sisi X yang mention gua. Oke, dibuka sedikit dulu. Jadi &lt;a href=&quot;https://github.com/chocochino&quot;&gt;@chocochino&lt;/a&gt; pernah posting dan mention &lt;em&gt;saya&lt;/em&gt; di web &lt;strong&gt;&lt;em&gt;github pages&lt;/em&gt;&lt;/strong&gt; pribadinya. Beberapa postingannya di &lt;a href=&quot;https://chocochino.github.io/IND-jekyll-for-dummies/&quot;&gt;sini&lt;/a&gt; dan &lt;a href=&quot;https://chocochino.github.io/kalau-layout-kacau-salahkan-berviantoleo/&quot;&gt;sini&lt;/a&gt;. Dia merupakan gadis hebat yang bertahan sampai akhir. Mantap sekali. :v Ya, jarang ada gadis-gadis yang mungkin seperti dia.&lt;/p&gt;
-
-&lt;p&gt;Di beberapa mention, ya, gua sadar gua gak bisa memberikan informasi lengkap dan bahkan tidak bisa berkomunikasi dengan baik. :v Ya, tapi untungnya dia jadi buat dokumentasi dan belajar sendiri. Itu cukup bagus walaupun akhirnya gua kena limpahannya. :v&lt;/p&gt;
-
-&lt;p&gt;Gua jadi inget, ya pernah ngepoin itu dia. Apa yang dia suka, dan lain-lain. *eh. Wkwkwk.. Ya, gua kepo gak banyak sih. Cuman nyari beberapa tentang dia aja. LoL Gua emang udah jarang komunikasi langsung, gua kepoin dulu, kalau bisa dia gak tau. LoL Masih terlalu canggung langsung &lt;em&gt;chat&lt;/em&gt; padahal ketemu langsung aja gak pernah. Ketemu langsung juga itu pas setelah ajang itu &lt;strong&gt;&lt;em&gt;hampir selesai&lt;/em&gt;&lt;/strong&gt;. Itu juga dia waktu itu gak penuh hari, hanya 1 hari dari 2 hari, dia hadir. Kalau diinget-inget, ya waktu itu gua malu karena gua gak bisa bantu banyak karena cuman kasih informasi seadanya. But, I still happy, karena gua pernah kenal orang-orang yang unik-unik dan &lt;strong&gt;&lt;em&gt;hebat&lt;/em&gt;&lt;/strong&gt; di Besut Kode. Bahkan dari mereka ada beberapa yang menurut gua &lt;em&gt;GEEK&lt;/em&gt; dan lebih keren bahkan lebih hebat dari gua. Gua mah cupu, cuman sekedar tau, gak dalemin sedikit pun. :D&lt;/p&gt;
-
-&lt;p&gt;Last but not end, ya kata penutup lah intinya. Walaupun cuman 2 hari. But it have much feel for me. Good luck for you guys!&lt;/p&gt;
-
-&lt;p&gt;Jadi inget deh. :v&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Nov 2018 10:17:00 +0700</pubDate>
-        <link>/articles/2018-11/iseng-buka-history</link>
-        <guid isPermaLink="true">/articles/2018-11/iseng-buka-history</guid>
-        
-        <category>experience</category>
-        
-        <category>life</category>
-        
-        
-        <category>Experience</category>
-        
-      </item>
-    
-      <item>
-        <title>Kesibukan</title>
-        <description>&lt;p&gt;Saat ini penuh sekali kesibukan. Dimulai dari rilisnya tugas-tugas berkelompok yang punya batas tenggat hanya 1 minggu, dan itu bukan hanya 1 mata kuliah. Cukup melelahkan, bukan karena tugasnya saja, bahkan kita masih perlu membangun suatu komunikasi baik antar anggota. (Ciee… habis belajar manajemen proyek gini nih). Iya tapi beneran melalahkan.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Selain itu kesibukanku saat ini sedang mengikuti Besut Kode Universitas. Cukup seru! Di sini aku banyak belajar dan jadi lebih aktif di github. Banyak belajar bagaimana menggunakan github dengan baik dan bijak. Dulu mah gunain asal pakai. Sekarang setidaknya sudah lebih baik dari sebelumnya. Selain itu juga dari belajar berkontribusi ini membuat aku semakin ingin berkontribusi. Sejak dulu sudah mulai memperhatikan berbagai produk kode sumber terbuka, mereka dapat bersaing dengan produk-produk lain. Bahkan perkembangannya sangat jauh berkembang. Walaupun dulu jarang sekali bahkan dapat dibilang tidak pernah membuka kode-kode tersebut. Sekarang akhirnya mulai membuka bagaimana mereka dibuat dan bagaimana sebenarnya mereka dikembangkan.&lt;/p&gt;
-
-&lt;p&gt;Melalui Besut Kode ini aku belajar untuk berkontribusi, walaupun sekecil apapun. Bahkan berlatih bersabar, karena tidak selamanya akan diterima. Penolakan pernah terjadi. Jangan menyerah dalam kesibukanmu. Ambil hikmahnya. :)&lt;/p&gt;
-
-&lt;p&gt;Selamat beraktivitas.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 07 Nov 2016 00:00:00 +0700</pubDate>
-        <link>/articles/2016-11/kesibukan</link>
-        <guid isPermaLink="true">/articles/2016-11/kesibukan</guid>
-        
-        <category>daily-life</category>
-        
-        <category>besut-kode</category>
-        
-        
-        <category>Daily Life</category>
-        
-      </item>
-    
-      <item>
-        <title>Cerita Upgrade Linux Mint 17.3 ke Linux Mint 18</title>
-        <description>&lt;h2 id=&quot;edisi-upgrade-linux-mint&quot;&gt;[Edisi Upgrade Linux Mint]&lt;/h2&gt;
-
-&lt;p&gt;Ah bosen Linux Mint 17.3 gak bisa install aplikasi versi baru. Upgrade aja. Fix upgrade.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… (Proses upgrade)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Waduh, paketnya ada yang bentrok. Kayaknya bakal susah ini benerinnya.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… (Selesai upgrade)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Wah, udah. Restart ah. Waduh! Keren banget boot screennya.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… (Menunggu)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Zzzz.. gak bisa login, layar hitam. Fix error driver VGA. Hiks hiks.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… (Perbaikin vga)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Yey, bisa. Coba ah yang bentrok tadi. Zzz… Ternyata bener-bener kacau.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…(2 jam perbaikin)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Fiuh capek juga. Akhirnya jalan. Nih linux memang ajaib. Upgrade memang sering error tapi masih bisa perbaikin beberapa komponen kalau tau mana aja yang bentrok.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…(selesai - pakai seperti biasa)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ah kecewa. Kinerjanya turun. :(&lt;/p&gt;
-
-&lt;p&gt;Simpulan : Cerita pendek tersebut terjadi selama 24 jam. Cerita pendek bukan berarti dilewati dengan langkah pendek.&lt;/p&gt;
-
-&lt;p&gt;Eh OOT, maksudnya pakailah Linux. Selama gak bandel pakai OSnya gak sampai install ulang kok.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Oct 2016 00:00:00 +0700</pubDate>
-        <link>/articles/2016-10/cerita-upgrade-linux-mint-17-3-ke-linux-mint-18</link>
-        <guid isPermaLink="true">/articles/2016-10/cerita-upgrade-linux-mint-17-3-ke-linux-mint-18</guid>
-        
-        <category>daily-life</category>
-        
-        <category>linux</category>
-        
-        <category>technology</category>
-        
-        
-        <category>Daily Life</category>
-        
-        <category>Linux</category>
-        
-        <category>Technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Cara Mudah Membuat Post Blog dengan TinyPress</title>
-        <description>&lt;p&gt;Halo! Ini merupakan postingan pertama saya.&lt;/p&gt;
-
-&lt;p&gt;Dalam postingan ini saya ingin menjelaskan cara mudah membuat post blog dengan TinyPress. Berikut ini langkah-langkah pembuatannya.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Buka &lt;a href=&quot;https://tinypress.co&quot;&gt;tinypress.co&lt;/a&gt;. Klik Join … Writers!&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://github.com/berviantoleo/berviantoleo.github.io/raw/master/images/blog/1/landing-page.png&quot; alt=&quot;Landing Page&quot; class=&quot;post&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Lalu Anda akan mendapat halaman log-in jika sebelumnya belum pernah log-in github. Silahkan log-in. Lalu setelah log-in anda akan diminta untuk autentikasi aplikasi tersebut dengan akun Anda.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://github.com/berviantoleo/berviantoleo.github.io/raw/master/images/blog/1/log-in.png&quot; alt=&quot;Log-in Page&quot; class=&quot;post&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Setelah berhasil log-in. Anda akan mendapat dashboard postingan Anda. Anda dapat membuat post dengan klik New Post.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://github.com/berviantoleo/berviantoleo.github.io/raw/master/images/blog/1/post-dashboard.png&quot; alt=&quot;Post Dashboard&quot; class=&quot;post&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Buat Postingan Anda! Membuat postingan ini dapat dengan menggunakan format markdown. Anda dapat mencari informasi mengenai markdown di luar postingan ini. Untuk mengecek hasil tulisan Anda, dapat klik preview untuk liat hasil sementara yang telah Anda tulis.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://github.com/berviantoleo/berviantoleo.github.io/raw/master/images/blog/1/create-post.png&quot; alt=&quot;Create Post&quot; class=&quot;post&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;Catatan : untuk memasukan gambar, gunakan format markdown, simpan gambar Anda dalam repository Anda. Kode markdown gambar dapat Anda lihat di luar postingan ini.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Setelah selesai, klik tanda panah ke bawah sebelah preview. Lalu klik Post. Anda juga dapat memposting nanti dengan Post later… atau menyimpan dahulu hasil tulisan Anda tanpa memostingnya dengan Save draft on Github.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Selesai! Anda berhasil membuat postingan blog Anda.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 25 Oct 2016 00:00:00 +0700</pubDate>
-        <link>/articles/2016-10/cara-mudah-membuat-post-blog-dengan-tinypress</link>
-        <guid isPermaLink="true">/articles/2016-10/cara-mudah-membuat-post-blog-dengan-tinypress</guid>
-        
-        <category>tips</category>
-        
-        
-        <category>Tips</category>
-        
-        <category>Technology</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>

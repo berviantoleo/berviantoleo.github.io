@@ -1,0 +1,90 @@
+---
+title: Bervianto L
+timezone: Asia/Jakarta
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: bervianto.leo@gmail.com
+description: Personal Website of Bervianto Leo Pratama
+keywords:
+- Android
+- Mobile
+- Web
+excerpt_separator: "<!--more-->"
+permalink: "/articles/:year-:month/:title"
+plugins:
+- jekyll-paginate-v2
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+owner:
+  name: Bervianto Leo Pratama
+  avatar: bervianto.jpg
+  job: Mobile & Web Developer
+  bio: Backend & frontend is me.
+  email: bervianto.leo@gmail.com
+  disqus-shortname: berviantoleo-github-io
+  twitter: berviantoleo
+  facebook: bervianto.leo
+  google:
+    analytics: UA-151909976-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+    adMob: ca-pub-3977777728414350
+  bing-verify: 
+  github: berviantoleo
+  stackoverflow: 6948591/bervianto-leo-pratama
+  linkedin: bervianto-leo-pratama
+  instagram: bervianto.leo
+  lastfm: berviantoleo
+  tumblr: 
+  pinterest: berviantoleo
+  foursquare: 
+  steam: cyber-name
+  dribbble: 
+  youtube: BerviantoLeoPratama
+  soundcloud: bervianto-leo-pratama
+  weibo: 
+  flickr: 
+  codepen: 
+  telegram: berviantoleo
+exclude:
+- src/
+- README.md
+- LICENSE
+- Gemfile.lock
+- node_modules/
+- ".sass-cache"
+- lib/
+- package-lock.json
+- package.json
+- webpack.config.js
+- vendor/
+pagination:
+  enabled: true
+  debug: false
+  collection: posts
+  per_page: 4
+  permalink: page/:num/
+  title: ":title - page :num of :max"
+  limit: 0
+  sort_field: date
+  sort_reverse: true
+  category: posts
+  tag: 
+  locale: 
+  trail:
+    before: 2
+    after: 2
+  extension: html
+  indexpage: index
