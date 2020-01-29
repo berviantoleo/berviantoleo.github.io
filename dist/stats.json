@@ -8,8 +8,8 @@
   ],
   "version": "4.41.5",
   "hash": "3d4b322628f2c8c48f63",
-  "time": 5028,
-  "builtAt": 1579569504776,
+  "time": 5530,
+  "builtAt": 1580258845453,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "js/vendor.bundle.js",
-      "size": 1149570,
+      "size": 1149574,
       "chunks": [
         1
       ],
@@ -62,7 +62,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "js/vendor.bundle.js.LICENSE",
+      "name": "js/vendor.bundle.js.LICENSE.txt",
       "size": 186,
       "chunks": [
       ],
