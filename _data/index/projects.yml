@@ -10,17 +10,17 @@
   descr: "Web Application build in Django Framework (Python) to scheduling subject in University. Using some algorithm like Hill Climbing, Simulated Annealing, and Genetic Algorithm."
   github: https://github.com/berv-uni-project/scheduler-op
 
-- name: Belitung Information Center
-  descr: "Belitung Information Center in Mobile Application (Android/iOS) build in IONIC 2."
-  github: https://github.com/bervProject/belitung-information-center
+- name: Simple Encrypt Decrypt Page
+  descr: "Simple Page with Encryption and Decryption in Client Side Web"
+  github: https://github.com/bervProject/SimpleEncryptDecryptPage
   
-- name: Learn Android
-  descr: "Android Application to learn how build simple Android App. Using some recommend library, like Retrofit 2.0, Realm, Butterknife, etc."
-  github: https://github.com/bervProject/learn-android
+- name: Pulau Sebuku GIS
+  descr: "Pulau Sebuku GIS, provide Pulau Sebuku Information."
+  github: https://github.com/bervProject/Pulau-Sebuku-GIS
   
-- name: You Can Use It
-  descr: "Mobile Application using AIR (Flash), build in Starling and Feather UI."
-  github: https://github.com/bervProject/You-Can-Use-It
+- name: RGB Counter
+  descr: "Count Red, Green, Blue value each pixel in an picture."
+  github: https://github.com/bervProject/RGBCounter
 
 - name: Frog Archiver
   descr: "Desktop Application build in QT and C++ for archiving your files and compress files."
