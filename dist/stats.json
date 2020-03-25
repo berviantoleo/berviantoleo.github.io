@@ -6,10 +6,10 @@
     "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (1.38 MiB)\n      js/vendor.bundle.js\n      css/mystyles.css\n      js/main.bundle.js\n",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
-  "version": "4.42.0",
+  "version": "4.42.1",
   "hash": "2a1e7866b2de947eb349",
-  "time": 5681,
-  "builtAt": 1585057955674,
+  "time": 5523,
+  "builtAt": 1585099222357,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
