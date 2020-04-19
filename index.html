@@ -40,6 +40,12 @@ pagination:
                             </p>
                             {% endif %}
                         </div>
+
+                        <div class="tags">
+                            {% for tag in post.tags %}
+                            <span class="tag is-primary is-light is-small">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -48,10 +54,14 @@ pagination:
         {% if paginator.total_pages > 1 %}
         <nav class="pagination" role="navigation" aria-label="pagination">
             {% if paginator.previous_page %}
-            <a class="pagination-previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+            <a class="pagination-previous"
+                href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer
+                Posts</a>
             {% endif %}
             {% if paginator.next_page %}
-            <a class="pagination-next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+            <a class="pagination-next"
+                href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts
+                &rarr;</a>
             {% endif %}
         </nav>
         {% endif %}
