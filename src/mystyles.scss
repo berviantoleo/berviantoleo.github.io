@@ -1,6 +1,9 @@
 @charset "utf-8";
 @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
 $primary: #24a9e7;
+$footer-background-color: $primary;
+$footer-color: true;
+$footer-padding: 1.5rem;
 @import "~bulma/bulma";
 @import "~bulma-extensions/bulma-timeline/src/sass/index.sass";
 
