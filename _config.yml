@@ -9,6 +9,7 @@ collections:
     title: Uploads
     output: true
 email: bervianto.leo@gmail.com
+url: https://berviantoleo.my.id
 description: Personal Website of Bervianto Leo Pratama
 keywords:
 - Android
@@ -18,6 +19,7 @@ excerpt_separator: "<!--more-->"
 permalink: "/articles/:year-:month/:title"
 plugins:
 - jekyll-paginate-v2
+- jekyll-feed
 markdown: kramdown
 highlighter: rouge
 kramdown:
