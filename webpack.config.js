@@ -1,5 +1,5 @@
 const path = require('path')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const ExtractCssChunks = require('extract-css-chunks-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
@@ -29,20 +29,22 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: process.env.NODE_ENV === 'development'
-            }
-          },
+          ExtractCssChunks.loader,
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+        loader: 'url-loader',
+        options: {
+          limit: 8192
+        }
       }
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin({
+    new ExtractCssChunks({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
       filename: 'css/mystyles.css',
