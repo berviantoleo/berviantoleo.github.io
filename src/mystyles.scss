@@ -6,3 +6,12 @@ $footer-color: true;
 $footer-padding: 1.5rem;
 @import "~bulma/bulma";
 @import "~bulma-extensions/bulma-timeline/src/sass/index.sass";
+
+.bm--card-equal-height {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+.bm--card-equal-height .card-footer {
+   margin-top: auto;
+}

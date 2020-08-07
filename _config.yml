@@ -39,26 +39,26 @@ owner:
   facebook: bervianto.leo
   google:
     analytics: UA-151909976-1
-    verify: 
-    ad-client: 
-    ad-slot: 
+    verify:
+    ad-client:
+    ad-slot:
     adMob: ca-pub-3977777728414350
-  bing-verify: 
+  bing-verify:
   github: berviantoleo
   stackoverflow: 6948591/bervianto-leo-pratama
   linkedin: bervianto-leo-pratama
   instagram: bervianto.leo
   lastfm: berviantoleo
-  tumblr: 
+  tumblr:
   pinterest: berviantoleo
-  foursquare: 
+  foursquare:
   steam: cyber-name
-  dribbble: 
+  dribbble:
   youtube: BerviantoLeoPratama
   soundcloud: bervianto-leo-pratama
-  weibo: 
-  flickr: 
-  codepen: 
+  weibo:
+  flickr:
+  codepen:
   telegram: berviantoleo
 exclude:
 - src/
@@ -76,15 +76,15 @@ pagination:
   enabled: true
   debug: false
   collection: posts
-  per_page: 4
+  per_page: 6
   permalink: page/:num/
   title: ":title - page :num of :max"
   limit: 0
   sort_field: date
   sort_reverse: true
   category: posts
-  tag: 
-  locale: 
+  tag:
+  locale:
   trail:
     before: 2
     after: 2
