@@ -8,8 +8,8 @@
   ],
   "version": "4.44.1",
   "hash": "348e60912e60120d7353",
-  "time": 5568,
-  "builtAt": 1596790008599,
+  "time": 5429,
+  "builtAt": 1597128948753,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
@@ -58,7 +58,10 @@
         "vendor"
       ],
       "info": {
-        "minimized": true
+        "minimized": true,
+        "related": {
+          "license": "js/vendor.bundle.js.LICENSE.txt"
+        }
       },
       "emitted": true,
       "isOverSizeLimit": true
