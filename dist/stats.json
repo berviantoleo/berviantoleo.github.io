@@ -7,9 +7,9 @@
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.44.2",
-  "hash": "90d431c4345d29162bac",
-  "time": 5453,
-  "builtAt": 1600458433497,
+  "hash": "6f73339c6deabd82b861",
+  "time": 5332,
+  "builtAt": 1600651379452,
   "publicPath": "",
   "outputPath": "/home/travis/build/berviantoleo/berviantoleo.github.io/dist",
   "assetsByChunkName": {
@@ -129,7 +129,7 @@
         "css/mystyles.css",
         "js/main.bundle.js"
       ],
-      "hash": "ead923053be6a8471299",
+      "hash": "cb81aa039b6f6aabea83",
       "siblings": [
         1
       ],
@@ -353,7 +353,7 @@
       "files": [
         "js/vendor.bundle.js"
       ],
-      "hash": "dbf8534a96d9f6b39190",
+      "hash": "29161728d081885fa2db",
       "siblings": [
         0
       ],
@@ -1216,7 +1216,7 @@
           "files": [
             "*"
           ],
-          "hash": "8104f288c37483552489",
+          "hash": "34a3404915f411abf52a",
           "siblings": [
           ],
           "parents": [
