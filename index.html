@@ -5,8 +5,37 @@ pagination:
    enabled: true
 ---
 
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else
+    %}{% assign author = site.owner %} {% endif %}
+
+<section class="section has-background-primary-light">
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+              <article class="media">
+                <figure class="media-left">
+                  <p class="image is-128x128">
+                    <img class="is-rounded" src="{{ site.url }}/img/bervianto.jpg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <div class="content">
+                    <h2 class="title">{{ site.owner.name }}</h2>
+                    <h3 class="subtitle">{{ site.owner.job }}</h3>
+                    <h4>{{ site.owner.bio }}</h4>
+                  </div>
+                </div>
+              </article>
+              {% include component/social-links.html %}
+            </div>
+          </div>      
+    </div>
+</section>
+
+
 <section id="blog-post" class="section">
     <div class="container">
+        <h2 class="title">Blog Post</h2>
         <div class="columns is-multiline">
             {% for post in paginator.posts %}
             <div class="column is-one-third">
@@ -52,16 +81,24 @@ pagination:
             {% endfor %}
         </div>
         {% if paginator.total_pages > 1 %}
-        <nav class="pagination" role="navigation" aria-label="pagination">
+        <nav class="level">
             {% if paginator.previous_page %}
-            <a class="pagination-previous"
-                href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer
-                Posts</a>
+            <div class="level-left">
+                <div class="level-item">
+                    <b-button tag="a" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" icon-pack="fas" icon-left="arrow-left">
+                        Newer Posts
+                    </b-button>        
+                </div>
+            </div>
             {% endif %}
             {% if paginator.next_page %}
-            <a class="pagination-next"
-                href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts
-                &rarr;</a>
+            <div class="level-right">
+                <div class="level-item">
+                    <b-button tag="a" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" icon-pack="fas" icon-right="arrow-right">
+                        Older Posts
+                    </b-button>        
+                </div>
+            </div>
             {% endif %}
         </nav>
         {% endif %}

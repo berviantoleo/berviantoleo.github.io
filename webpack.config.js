@@ -24,6 +24,11 @@ module.exports = {
     },
     minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
+  resolve: {
+    alias: {
+      vue$: 'vue/dist/vue.esm.js'
+    }
+  },
   module: {
     rules: [
       {
@@ -48,11 +53,11 @@ module.exports = {
       // Options similar to the same options in webpackOptions.output
       // both options are optional
       filename: 'css/mystyles.css',
-      chunkFilename: 'css/helper.css'
+      chunkFilename: 'css/vendor.css'
     }),
     new BundleAnalyzerPlugin({
-      generateStatsFile: true,
-      analyzerMode: 'static',
+      generateStatsFile: false,
+      analyzerMode: 'disabled',
       openAnalyzer: false
     })
   ]

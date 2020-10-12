@@ -1,3 +1,28 @@
-<header>
-    {% include component/nav.html %}
-</header>
+<b-navbar fixed-top type="is-primary" centered wrapper-class="container">
+  <template slot="brand">
+    <b-navbar-item tag="a" href="/">
+      <img src="{{ site.url }}/favicon.png" />
+    </b-navbar-item>
+  </template>
+  <template slot="start">
+    {% for page in site.pages %} {% if page.title and page.autogen == nil %}
+    <b-navbar-item href="{{page.url}}"> {{ page.title }} </b-navbar-item>
+    {% endif %} {% endfor %}
+  </template>
+
+  <template slot="end">
+    <b-navbar-item tag="div">
+      <div class="buttons">
+        <a
+          href="https://github.com/berviantoleo/berviantoleo.github.io"
+          class="button"
+        >
+          <span class="icon">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Github</span>
+        </a>
+      </div>
+    </b-navbar-item>
+  </template>
+</b-navbar>

@@ -1,16 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="has-navbar-fixed-top">
-
-{% include head.html %}
-
-<body>
-    {% include headers.html %}
-
-    {{ content }}
-
-    {% include footers.html %}
-
-    {% include js.html %}
-</body>
-
+  {% include head.html %}
+  <body>
+    <div id="app">{% include headers.html %} {{ content }}</div>
+    {% include footers.html %} {% include js.html %}
+  </body>
 </html>
