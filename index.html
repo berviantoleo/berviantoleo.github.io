@@ -2,11 +2,14 @@
 permalink: "/"
 layout: main
 pagination:
-   enabled: true
+  enabled: true
 ---
 
-{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else
-    %}{% assign author = site.owner %} {% endif %}
+{% if page.author %}
+{% assign author = site.data.authors[page.author] %}
+{% else %}
+{% assign author = site.owner %}
+{% endif %}
 
 <section class="section has-background-primary-light">
     <div class="container">
@@ -32,7 +35,6 @@ pagination:
     </div>
 </section>
 
-
 <section id="blog-post" class="section">
     <div class="container">
         <h2 class="title">Blog Post</h2>
@@ -40,15 +42,6 @@ pagination:
             {% for post in paginator.posts %}
             <div class="column is-one-third">
                 <div class="card bm--card-equal-height">
-                    <!--
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <a href="{{ post.url }}">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                            </a>
-                        </figure>
-                    </div>
-                    -->
                     <div class="card-content">
                         <h2><a class="title" href="{{ post.url }}">{{ post.title }}</a></h2>
                         <h3><a class="subtitle" href="{{ post.url }}">
@@ -87,7 +80,7 @@ pagination:
                 <div class="level-item">
                     <b-button tag="a" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" icon-pack="fas" icon-left="arrow-left">
                         Newer Posts
-                    </b-button>        
+                    </b-button>
                 </div>
             </div>
             {% endif %}
@@ -96,11 +89,12 @@ pagination:
                 <div class="level-item">
                     <b-button tag="a" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" icon-pack="fas" icon-right="arrow-right">
                         Older Posts
-                    </b-button>        
+                    </b-button>
                 </div>
             </div>
             {% endif %}
         </nav>
         {% endif %}
     </div>
+
 </section>
