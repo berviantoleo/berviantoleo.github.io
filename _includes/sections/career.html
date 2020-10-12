@@ -9,11 +9,15 @@
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <p class="heading">{{ career.date }}</p>
-      <p>
-        <h3 class="title">{{ career.job }}</h3>
-        <h4 class="subtitle">@ <a href="{{ career.link }}">{{ career.name }}</a></h4>
-        <p class="content">{{ career.description }}</p>
-      </p>
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <h3 class="title">{{ career.job }}</h3>
+            <h5 class="subtitle">@ <a href="{{ career.link }}">{{ career.name }}</a></h5>
+            <p>{{ career.description }}</p> 
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   {% endfor %}
