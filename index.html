@@ -1,7 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="has-navbar-fixed-top">
-
-
+  
 
 
 
@@ -45,104 +44,63 @@
   
 </head>
 
+  <body>
+    <div id="app"><b-navbar fixed-top type="is-primary" centered wrapper-class="container">
+  <template slot="brand">
+    <b-navbar-item tag="a" href="/">
+      <img src="https://berviantoleo.my.id/favicon.png" />
+    </b-navbar-item>
+  </template>
+  <template slot="start">
+       
+    <b-navbar-item href="/archive/"> Archive </b-navbar-item>
+        
+    <b-navbar-item href="/categories/"> Categories </b-navbar-item>
+      
+    <b-navbar-item href="/resume"> Resume </b-navbar-item>
+      
+    <b-navbar-item href="/tags/"> Tags </b-navbar-item>
+      
+    <b-navbar-item href="/index.html"> Bervianto L </b-navbar-item>
+       
+  </template>
 
-<body>
-    <header>
-    
-
-<nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-                <img src="https://berviantoleo.my.id/favicon.png" />
-            </a>
-
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-end">
-                
-                
-                
-                
-                <a href="/archive/" class="navbar-item">
-                    Archive
-                </a>
-                
-                
-                
-                
-                
-                <a href="/categories/" class="navbar-item">
-                    Categories
-                </a>
-                
-                
-                
-                <a href="/resume" class="navbar-item">
-                    Resume
-                </a>
-                
-                
-                
-                <a href="/tags/" class="navbar-item">
-                    Tags
-                </a>
-                
-                
-                
-                <a href="/index.html" class="navbar-item">
-                    Bervianto L
-                </a>
-                
-                
-                
-                
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a href="https://github.com/berviantoleo/berviantoleo.github.io" class="button">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                            <span>Github</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-</nav>
+  <template slot="end">
+    <b-navbar-item tag="div">
+      <div class="buttons">
+        <a
+          href="https://github.com/berviantoleo/berviantoleo.github.io"
+          class="button"
+        >
+          <span class="icon">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Github</span>
+        </a>
+      </div>
+    </b-navbar-item>
+  </template>
+</b-navbar> 
 
 <section class="section has-background-primary-light">
     <div class="container">
         <div class="card">
             <div class="card-content">
-                <article class="media">
-                    <figure class="media-left">
-                        <p class="image is-128x128">
-                            <img class="is-rounded" src="https://berviantoleo.my.id/img/bervianto.jpg" />
-                        </p>
-                    </figure>
-                    <div class="media-content">
-                        <div class="content">
-                            <h2 class="title">
-                                Bervianto Leo Pratama
-                            </h2>
-                            <h3 class="subtitle">
-                                Mobile & Web Developer
-                            </h3>
-                            <h4>
-                                Backend & frontend is me.
-                            </h4>
-                        </div>
-                    </div>
-                </article>
-                <section class="section">
+              <article class="media">
+                <figure class="media-left">
+                  <p class="image is-128x128">
+                    <img class="is-rounded" src="https://berviantoleo.my.id/img/bervianto.jpg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <div class="content">
+                    <h2 class="title">Bervianto Leo Pratama</h2>
+                    <h3 class="subtitle">Mobile & Web Developer</h3>
+                    <h4>Backend & frontend is me.</h4>
+                  </div>
+                </div>
+              </article>
+              <section class="section">
   <div class="container">
     <h2 class="title">Connect Me</h2>
     <div class="buttons">
@@ -264,14 +222,14 @@
 </section>
 
             </div>
-        </div>
+          </div>      
     </div>
 </section>
 
-</header>
 
-    <section id="blog-post" class="section">
+<section id="blog-post" class="section">
     <div class="container">
+        <h2 class="title">Blog Post</h2>
         <div class="columns is-multiline">
             
             <div class="column is-one-third">
@@ -567,18 +525,21 @@
             
         </div>
         
-        <nav class="pagination" role="navigation" aria-label="pagination">
+        <nav class="level">
             
             
-            <a class="pagination-next"
-                href="/page/2/index.html">Older Posts
-                &rarr;</a>
+            <div class="level-right">
+                <div class="level-item">
+                    <b-button tag="a" href="/page/2/index.html" icon-pack="fas" icon-right="arrow-right">
+                        Older Posts
+                    </b-button>        
+                </div>
+            </div>
             
         </nav>
         
     </div>
-</section>
-
+</section></div>
     <footer class="footer">
   <section class="section">
     <div class="content has-text-centered">
@@ -592,12 +553,11 @@
         website content is licensed
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
       </p>
+      <p>Version 1.0</p>
     </div>
   </section>
-</footer>
-
-    <script defer type="text/javascript" src="https://berviantoleo.my.id/dist/js/main.bundle.js"></script>
-<script defer type="text/javascript" src="https://berviantoleo.my.id/dist/js/vendor.bundle.js"></script>
+</footer> <script defer type="text/javascript" src="https://berviantoleo.my.id/dist/js/vendor.bundle.js"></script>
+<script defer type="text/javascript" src="https://berviantoleo.my.id/dist/js/main.bundle.js"></script>
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -611,6 +571,5 @@
 </script>
 
 
-</body>
-
+  </body>
 </html>
