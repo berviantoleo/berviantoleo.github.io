@@ -4,7 +4,7 @@
 $primary: #239199;
 $primary-invert: findColorInvert($primary);
 
-$colors: (
+$colors: mergeColorMaps((
     "white": ($white, $black),
     "black": ($black, $white),
     "light": ($light, $light-invert),
@@ -14,7 +14,7 @@ $colors: (
     "success": ($success, $success-invert),
     "warning": ($warning, $warning-invert),
     "danger": ($danger, $danger-invert)
-);
+), $custom-colors);
 
 $footer-background-color: $primary-light;
 $footer-color: true;
