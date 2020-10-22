@@ -12,8 +12,8 @@ before_install:
   - gem install bundler
 
 before_script:
- - yarn
- - yarn build
+  - yarn
+  - yarn build
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
@@ -24,12 +24,12 @@ script:
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 addons:
   apt:
     packages:
-    - libcurl4-openssl-dev
+      - libcurl4-openssl-dev
 
 deploy:
   provider: pages
