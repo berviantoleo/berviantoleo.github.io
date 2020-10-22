@@ -9,8 +9,8 @@
   "scripts": {
     "dev": "webpack --watch",
     "build": "yarn fix-lint && webpack --mode production",
-    "test": "standard",
-    "fix-lint": "standard --fix"
+    "test": "prettier --check .",
+    "fix-lint": "prettier --write ."
   },
   "repository": {
     "type": "git",
