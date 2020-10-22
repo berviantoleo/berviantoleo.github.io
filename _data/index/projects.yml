@@ -13,11 +13,11 @@
 - name: Simple Encrypt Decrypt Page
   descr: "Simple Page with Encryption and Decryption in Client Side Web"
   github: https://github.com/bervProject/SimpleEncryptDecryptPage
-  
+
 - name: Pulau Sebuku GIS
   descr: "Pulau Sebuku GIS, provide Pulau Sebuku Information."
   github: https://github.com/bervProject/Pulau-Sebuku-GIS
-  
+
 - name: RGB Counter
   descr: "Count Red, Green, Blue value each pixel in an picture."
   github: https://github.com/bervProject/RGBCounter

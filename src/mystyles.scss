@@ -1,20 +1,50 @@
 @charset "utf-8";
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~bulma/sass/utilities/_all";
 $primary: #239199;
 $primary-invert: findColorInvert($primary);
 
-$colors: mergeColorMaps((
-    "white": ($white, $black),
-    "black": ($black, $white),
-    "light": ($light, $light-invert),
-    "dark": ($dark, $dark-invert),
-    "primary": ($primary, $primary-invert),
-    "info": ($info, $info-invert),
-    "success": ($success, $success-invert),
-    "warning": ($warning, $warning-invert),
-    "danger": ($danger, $danger-invert)
-), $custom-colors);
+$colors: mergeColorMaps(
+  (
+    "white": (
+      $white,
+      $black,
+    ),
+    "black": (
+      $black,
+      $white,
+    ),
+    "light": (
+      $light,
+      $light-invert,
+    ),
+    "dark": (
+      $dark,
+      $dark-invert,
+    ),
+    "primary": (
+      $primary,
+      $primary-invert,
+    ),
+    "info": (
+      $info,
+      $info-invert,
+    ),
+    "success": (
+      $success,
+      $success-invert,
+    ),
+    "warning": (
+      $warning,
+      $warning-invert,
+    ),
+    "danger": (
+      $danger,
+      $danger-invert,
+    ),
+  ),
+  $custom-colors
+);
 
 $footer-background-color: $primary-light;
 $footer-color: true;
@@ -24,10 +54,10 @@ $footer-padding: 0.5rem;
 @import "~buefy/src/scss/buefy";
 
 .bm--card-equal-height {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .bm--card-equal-height .card-footer {
-   margin-top: auto;
+  margin-top: auto;
 }

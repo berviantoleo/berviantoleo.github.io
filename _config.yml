@@ -12,14 +12,14 @@ email: bervianto.leo@gmail.com
 url: https://berviantoleo.my.id
 description: Personal Website of Bervianto Leo Pratama
 keywords:
-- Android
-- Mobile
-- Web
+  - Android
+  - Mobile
+  - Web
 excerpt_separator: "<!--more-->"
 permalink: "/articles/:year-:month/:title"
 plugins:
-- jekyll-paginate-v2
-- jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-feed
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -61,17 +61,18 @@ owner:
   codepen:
   telegram: berviantoleo
 exclude:
-- src/
-- README.md
-- LICENSE
-- Gemfile.lock
-- node_modules/
-- ".sass-cache"
-- lib/
-- package-lock.json
-- package.json
-- webpack.config.js
-- vendor/
+  - src/
+  - README.md
+  - LICENSE
+  - Gemfile.lock
+  - node_modules/
+  - ".sass-cache"
+  - lib/
+  - package-lock.json
+  - package.json
+  - webpack.config.js
+  - vendor/
+  - yarn.lock
 pagination:
   enabled: true
   debug: false

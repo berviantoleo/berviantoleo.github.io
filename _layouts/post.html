@@ -11,7 +11,8 @@ layout: main
                 %} alt="{{ page.title }} feature image">
 
             {% if page.image.credit %}
-            <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+            <span class="image-credit">Photo Credit: <a
+                    href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
             {% endif %}
         </div><!-- /.image-wrap -->
         {% endif %}
@@ -52,15 +53,17 @@ layout: main
                 </nav>
             </section>
             <div class="box">
-                <h1 class="title">Share on: </h6>
-                    <p class="buttons">
-                        <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="button is-primary"
-                            title="Share on Twitter"><span class="icon"><i class="fab fa-twitter"></i></span><span>
-                                Twitter</span></a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="button is-link"
-                            title="Share on Facebook"><span class="icon"><i class="fab fa-facebook"></i></span><span>
-                                Facebook</span></a>                        
-                    </p>
+                <h5 class="title">Share on: </h5>
+                <div class="buttons">
+                    <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}"
+                        class="button is-primary" title="Share on Twitter"><span class="icon"><i
+                                class="fab fa-twitter"></i></span><span>
+                            Twitter</span></a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+                        class="button is-link" title="Share on Facebook"><span class="icon"><i
+                                class="fab fa-facebook"></i></span><span>
+                            Facebook</span></a>
+                </div>
             </div><!-- end share-buttons -->
 
             {% if site.owner.disqus-shortname and page.comments == true %}
