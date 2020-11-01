@@ -29,7 +29,7 @@
   "homepage": "https://github.com/berviantoleo/berviantoleo.github.io#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
-    "buefy": "^0.9.3",
+    "buefy": "^0.9.4",
     "bulma-extensions": "^6.2.7",
     "css-loader": "^5.0.0",
     "extract-css-chunks-webpack-plugin": "^4.8.0",
