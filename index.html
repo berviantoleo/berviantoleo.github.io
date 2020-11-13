@@ -31,7 +31,7 @@ pagination:
               </article>
               {% include component/social-links.html %}
             </div>
-          </div>      
+          </div>
     </div>
 </section>
 
@@ -87,18 +87,20 @@ pagination:
             {% if paginator.previous_page %}
             <div class="level-left">
                 <div class="level-item">
-                    <b-button tag="a" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" icon-pack="fas" icon-left="arrow-left">
-                        Newer Posts
-                    </b-button>
+                    <a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                        <span class="icon"><font-awesome-icon :icon="['fa','arrow-left']" /></span>
+                        <span>Newer Posts</span>
+                    </a>
                 </div>
             </div>
             {% endif %}
             {% if paginator.next_page %}
             <div class="level-right">
                 <div class="level-item">
-                    <b-button tag="a" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" icon-pack="fas" icon-right="arrow-right">
-                        Older Posts
-                    </b-button>
+                    <a class="button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                        <span>Older Posts</span>
+                        <span class="icon"><font-awesome-icon :icon="['fa','arrow-right']" /></span>
+                    </a>
                 </div>
             </div>
             {% endif %}

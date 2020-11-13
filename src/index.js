@@ -23,9 +23,16 @@ import {
   faCodepen,
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faHome,
+  faArrowLeft,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+library.add(faArrowLeft);
+library.add(faArrowRight);
 library.add(faEnvelope);
 library.add(faHome);
 library.add(faGithub);
