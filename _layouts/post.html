@@ -41,28 +41,28 @@ layout: main
             <section class="section">
                 <nav class="pagination is-centered" role="navigation" aria-label="pagination">
                     {% if page.previous %}
-                    <a href="{{page.previous.url}}" class="pagination-previous">Previous</a>
+                    <a href="{{page.previous.url}}" class="pagination-previous"><span class="icon"><font-awesome-icon :icon="['fa','arrow-left']" /></span><span>Previous</span></a>
                     {% else %}
-                    <a class="pagination-previous" disabled>Previous</a>
+                    <a class="pagination-previous" disabled><span class="icon"><font-awesome-icon :icon="['fa','arrow-left']" /></span><span>Previous</span></a>
                     {% endif %}
                     {% if page.next %}
-                    <a href="{{page.next.url}}" class="pagination-next">Next</a>
+                    <a href="{{page.next.url}}" class="pagination-next"><span>Next</span><span class="icon"><font-awesome-icon :icon="['fa','arrow-right']" /></span></a>
                     {% else %}
-                    <a class="pagination-next" disabled>Next</a>
+                    <a class="pagination-next" disabled><span>Next</span><span class="icon"><font-awesome-icon :icon="['fa','arrow-right']" /></span></a>
                     {% endif %}
                 </nav>
             </section>
             <div class="box">
                 <h5 class="title">Share on: </h5>
                 <div class="buttons">
-                    <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}"
-                        class="button is-primary" title="Share on Twitter"><span class="icon"><i
-                                class="fab fa-twitter"></i></span><span>
-                            Twitter</span></a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
-                        class="button is-link" title="Share on Facebook"><span class="icon"><i
-                                class="fab fa-facebook"></i></span><span>
-                            Facebook</span></a>
+                    <a class="button is-primary" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}">
+                        <span class="icon"><font-awesome-icon :icon="['fab','twitter']" /></span>
+                        <span>Twitter</span>
+                    </a>
+                    <a class="button is-link" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
+                        <span class="icon"><font-awesome-icon :icon="['fab','facebook']" /></span>
+                        <span>Facebook</span>
+                    </a>
                 </div>
             </div><!-- end share-buttons -->
 
