@@ -4,7 +4,7 @@
     <div class="buttons">
       {% if author.email %}
       <button class="button is-primary is-outlined">
-        <a class="icon" target="_blank" href="mailto:{{author.email}}?subject=Hello from Berv Personal Web"><i class="fa fa-envelope"></i></a>
+        <a class="icon" target="_blank" href="mailto:{{author.email}}?subject=Hello from Berv Personal Web"><font-awesome-icon :icon="['fa','envelope']" /></a>
       </button>
       {% endif %} {% if author.twitter %}
       <button class="button is-primary is-outlined">
@@ -12,8 +12,7 @@
           href="http://twitter.com/{{ author.twitter }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-twitter"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','twitter']" /></a>
       </button>
       {% endif %} {% if author.facebook %}
       <button class="button is-primary is-outlined">
@@ -21,8 +20,7 @@
           href="http://facebook.com/{{ author.facebook }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-facebook"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','facebook']" /></a>
       </button>
       {% endif %} {% if author.linkedin %}
       <button class="button is-primary is-outlined">
@@ -30,8 +28,7 @@
           href="http://linkedin.com/in/{{ author.linkedin }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-linkedin"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','linkedin']" /></a>
       </button>
       {% endif %} {% if author.instagram %}
       <button class="button is-primary is-outlined">
@@ -39,8 +36,7 @@
           href="http://instagram.com/{{ author.instagram }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-instagram"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','instagram']" /></a>
       </button>
       {% endif %} {% if author.tumblr %}
       <button class="button is-primary is-outlined">
@@ -48,8 +44,7 @@
           href="http://{{ author.tumblr }}.tumblr.com"
           target="_blank"
           class="icon"
-          ><i class="fab fa-tumblr"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','tumblr']" /></a>
       </button>
       {% endif %} {% if author.github %}
       <button class="button is-primary is-outlined">
@@ -57,8 +52,7 @@
           href="http://github.com/{{ author.github }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-github"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','github']" /></a>
       </button>
       {% endif %} {% if author.stackoverflow %}
       <button class="button is-primary is-outlined">
@@ -66,8 +60,7 @@
           href="http://stackoverflow.com/users/{{ author.stackoverflow }}"
           class="icon"
           target="_blank"
-          ><i class="fab fa-stack-overflow"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','stack-overflow']" /></a>
       </button>
       {% endif %} {% if author.lastfm %}
       <button class="button is-primary is-outlined">
@@ -75,8 +68,7 @@
           href="http://lastfm.com/user/{{ author.lastfm }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-lastfm"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','lastfm']" /></a>
       </button>
       {% endif %} {% if author.dribbble %}
       <button class="button is-primary is-outlined">
@@ -84,8 +76,7 @@
           href="http://dribbble.com/{{ author.dribbble }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-dribbble"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','dribbble']" /></a>
       </button>
       {% endif %} {% if author.pinterest %}
       <button class="button is-primary is-outlined">
@@ -93,8 +84,7 @@
           href="http://www.pinterest.com/{{ author.pinterest }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-pinterest"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','pinterest']" /></a>
       </button>
       {% endif %} {% if author.foursquare %}
       <button class="button is-primary is-outlined">
@@ -102,8 +92,7 @@
           href="http://foursquare.com/{{ author.foursquare }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-foursquare"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','foursquare']" /></a>
       </button>
       {% endif %} {% if author.steam %}
       <button class="button is-primary is-outlined">
@@ -111,8 +100,7 @@
           href="http://steamcommunity.com/id/{{ author.steam }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-steam"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','steam']" /></a>
       </button>
       {% endif %} {% if author.youtube %}
       <button class="button is-primary is-outlined">
@@ -120,8 +108,7 @@
           href="https://youtube.com/c/{{ author.youtube }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-youtube"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','youtube']" /></a>
       </button>
       {% endif %} {% if author.soundcloud %}
       <button class="button is-primary is-outlined">
@@ -129,8 +116,7 @@
           href="http://soundcloud.com/{{ author.soundcloud }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-soundcloud"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','soundcloud']" /></a>
       </button>
       {% endif %} {% if author.weibo %}
       <button class="button is-primary is-outlined">
@@ -138,8 +124,7 @@
           href="http://www.weibo.com/{{ author.weibo }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-weibo"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','weibo']" /></a>
       </button>
       {% endif %} {% if author.flickr %}
       <button class="button is-primary is-outlined">
@@ -147,8 +132,7 @@
           href="http://www.flickr.com/{{ author.flickr }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-flickr"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','flickr']" /></a>
       </button>
       {% endif %} {% if author.codepen %}
       <button class="button is-primary is-outlined">
@@ -156,8 +140,7 @@
           href="http://codepen.io/{{ author.codepen }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-codepen"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','codepen']" /></a>
       </button>
       {% endif %} {% if author.telegram %}
       <button class="button is-primary is-outlined">
@@ -165,8 +148,7 @@
           href="https://t.me/{{ author.telegram }}"
           target="_blank"
           class="icon"
-          ><i class="fab fa-telegram"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab','telegram']" /></a>
       </button>
       {% endif %}
     </div>

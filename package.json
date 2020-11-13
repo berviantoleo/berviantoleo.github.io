@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/berviantoleo/berviantoleo.github.io#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
     "buefy": "^0.9.4",
     "bulma-extensions": "^6.2.7",
     "css-loader": "^5.0.1",
@@ -52,5 +51,11 @@
       "name": "Bervianto Leo Pratama",
       "url": "https://berviantoleo.github.io"
     }
-  ]
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "2"
+  }
 }

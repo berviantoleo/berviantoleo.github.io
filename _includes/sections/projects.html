@@ -11,13 +11,13 @@
 
                     {% if project.github %}
                     <a class="button" href="{{ project.github }} ">
-                        <span class="icon"><i class="fab fa-github"></i></span>
+                        <span class="icon"><font-awesome-icon :icon="['fab','github']" /></span>
                         <span>GitHub</span>
                     </a>
                     {% endif %}
                     {% if project.website %}
                     <a class="button" href="{{ project.website }} ">
-                        <span class="icon"><i class="fa fa-home"></i></span>
+                        <span class="icon"><font-awesome-icon :icon="['fa','home']" /></span>
                         <span>Homepage</span>
                     </a>
                     {% endif %}

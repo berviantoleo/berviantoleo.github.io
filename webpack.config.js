@@ -52,8 +52,7 @@ module.exports = {
       chunkFilename: "css/vendor.css",
     }),
     new BundleAnalyzerPlugin({
-      generateStatsFile: false,
-      analyzerMode: "disabled",
+      analyzerMode: "static",
       openAnalyzer: false,
     }),
   ],
