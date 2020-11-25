@@ -2,7 +2,7 @@
 permalink: "/"
 layout: main
 pagination:
-  enabled: true
+    enabled: true
 ---
 
 {% if page.author %}
@@ -15,23 +15,25 @@ pagination:
     <div class="container">
         <div class="card">
             <div class="card-content">
-              <article class="media">
-                <figure class="media-left">
-                  <p class="image is-128x128">
-                    <img class="is-rounded" src="{{ site.url }}/img/bervianto.jpg" />
-                  </p>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <h2 class="title">{{ site.owner.name }}</h2>
-                    <h3 class="subtitle">{{ site.owner.job }}</h3>
-                    <h4>{{ site.owner.bio }}</h4>
-                  </div>
-                </div>
-              </article>
-              {% include component/social-links.html %}
+                <article class="media">
+                    <figure class="media-left">
+                        <p class="image is-128x128">
+                            <img class="is-rounded" src="{{ site.url }}/img/bervianto.jpg" />
+                        </p>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content">
+                            <h2 class="title">{{ site.owner.name }}</h2>
+                            <h3 class="subtitle">{{ site.owner.job }}</h3>
+                            <h4>{{ site.owner.bio }}</h4>
+                        </div>
+                    </div>
+                </article>
             </div>
-          </div>
+            <footer class="card-footer">
+                {% include component/social-links.html %}
+            </footer>
+        </div>
     </div>
 </section>
 
@@ -71,13 +73,32 @@ pagination:
                             </p>
                             {% endif %}
                         </div>
-
                         <div class="tags">
                             {% for tag in post.tags %}
                             <span class="tag is-primary is-light is-small">{{ tag }}</span>
                             {% endfor %}
                         </div>
                     </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <span>
+                                <a class="button is-primary" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ post.url }}">
+                                    <span class="icon">
+                                        <font-awesome-icon :icon="['fab','twitter']" /></span>
+                                    <span>Twitter</span>
+                                </a>
+                            </span>
+                        </p>
+                        <p class="card-footer-item">
+                            <span>
+                                <a class="button is-link" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}">
+                                    <span class="icon">
+                                        <font-awesome-icon :icon="['fab','facebook']" /></span>
+                                    <span>Facebook</span>
+                                </a>
+                            </span>
+                        </p>
+                    </footer>
                 </div>
             </div>
             {% endfor %}
@@ -87,8 +108,10 @@ pagination:
             {% if paginator.previous_page %}
             <div class="level-left">
                 <div class="level-item">
-                    <a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                        <span class="icon"><font-awesome-icon :icon="['fa','arrow-left']" /></span>
+                    <a class="button"
+                        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                        <span class="icon">
+                            <font-awesome-icon :icon="['fa','arrow-left']" /></span>
                         <span>Newer Posts</span>
                     </a>
                 </div>
@@ -97,9 +120,11 @@ pagination:
             {% if paginator.next_page %}
             <div class="level-right">
                 <div class="level-item">
-                    <a class="button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                    <a class="button"
+                        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
                         <span>Older Posts</span>
-                        <span class="icon"><font-awesome-icon :icon="['fa','arrow-right']" /></span>
+                        <span class="icon">
+                            <font-awesome-icon :icon="['fa','arrow-right']" /></span>
                     </a>
                 </div>
             </div>
