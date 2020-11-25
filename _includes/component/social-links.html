@@ -1,156 +1,134 @@
-<section class="section">
-  <div class="container">
-    <h2 class="title">Connect Me</h2>
-    <div class="buttons">
-      {% if author.email %}
-      <button class="button is-primary is-outlined">
-        <a class="icon" target="_blank" href="mailto:{{author.email}}?subject=Hello from Berv Personal Web"><font-awesome-icon :icon="['fa','envelope']" /></a>
-      </button>
-      {% endif %} {% if author.twitter %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://twitter.com/{{ author.twitter }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','twitter']" /></a>
-      </button>
-      {% endif %} {% if author.facebook %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://facebook.com/{{ author.facebook }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','facebook']" /></a>
-      </button>
-      {% endif %} {% if author.linkedin %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://linkedin.com/in/{{ author.linkedin }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','linkedin']" /></a>
-      </button>
-      {% endif %} {% if author.instagram %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://instagram.com/{{ author.instagram }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','instagram']" /></a>
-      </button>
-      {% endif %} {% if author.tumblr %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://{{ author.tumblr }}.tumblr.com"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','tumblr']" /></a>
-      </button>
-      {% endif %} {% if author.github %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://github.com/{{ author.github }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','github']" /></a>
-      </button>
-      {% endif %} {% if author.stackoverflow %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://stackoverflow.com/users/{{ author.stackoverflow }}"
-          class="icon"
-          target="_blank"
-          ><font-awesome-icon :icon="['fab','stack-overflow']" /></a>
-      </button>
-      {% endif %} {% if author.lastfm %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://lastfm.com/user/{{ author.lastfm }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','lastfm']" /></a>
-      </button>
-      {% endif %} {% if author.dribbble %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://dribbble.com/{{ author.dribbble }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','dribbble']" /></a>
-      </button>
-      {% endif %} {% if author.pinterest %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://www.pinterest.com/{{ author.pinterest }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','pinterest']" /></a>
-      </button>
-      {% endif %} {% if author.foursquare %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://foursquare.com/{{ author.foursquare }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','foursquare']" /></a>
-      </button>
-      {% endif %} {% if author.steam %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://steamcommunity.com/id/{{ author.steam }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','steam']" /></a>
-      </button>
-      {% endif %} {% if author.youtube %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="https://youtube.com/c/{{ author.youtube }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','youtube']" /></a>
-      </button>
-      {% endif %} {% if author.soundcloud %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://soundcloud.com/{{ author.soundcloud }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','soundcloud']" /></a>
-      </button>
-      {% endif %} {% if author.weibo %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://www.weibo.com/{{ author.weibo }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','weibo']" /></a>
-      </button>
-      {% endif %} {% if author.flickr %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://www.flickr.com/{{ author.flickr }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','flickr']" /></a>
-      </button>
-      {% endif %} {% if author.codepen %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="http://codepen.io/{{ author.codepen }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','codepen']" /></a>
-      </button>
-      {% endif %} {% if author.telegram %}
-      <button class="button is-primary is-outlined">
-        <a
-          href="https://t.me/{{ author.telegram }}"
-          target="_blank"
-          class="icon"
-          ><font-awesome-icon :icon="['fab','telegram']" /></a>
-      </button>
-      {% endif %}
-    </div>
-  </div>
-</section>
+{% if author.email %}
+<p class="card-footer-item">
+  <span>
+    <a class="icon" target="_blank" href="mailto:{{author.email}}?subject=Hello from Berv Personal Web">
+      <font-awesome-icon :icon="['fa','envelope']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.twitter %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://twitter.com/{{ author.twitter }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','twitter']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.facebook %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://facebook.com/{{ author.facebook }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','facebook']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.linkedin %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://linkedin.com/in/{{ author.linkedin }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','linkedin']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.instagram %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://instagram.com/{{ author.instagram }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','instagram']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.tumblr %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://{{ author.tumblr }}.tumblr.com" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','tumblr']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.github %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://github.com/{{ author.github }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','github']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.stackoverflow %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="icon" target="_blank">
+      <font-awesome-icon :icon="['fab','stack-overflow']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.lastfm %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://lastfm.com/user/{{ author.lastfm }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','lastfm']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.dribbble %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://dribbble.com/{{ author.dribbble }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','dribbble']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.pinterest %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://www.pinterest.com/{{ author.pinterest }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','pinterest']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.foursquare %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://foursquare.com/{{ author.foursquare }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','foursquare']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.steam %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://steamcommunity.com/id/{{ author.steam }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','steam']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.youtube %}
+<p class="card-footer-item">
+  <span>
+    <a href="https://youtube.com/c/{{ author.youtube }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','youtube']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.soundcloud %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://soundcloud.com/{{ author.soundcloud }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','soundcloud']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.weibo %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://www.weibo.com/{{ author.weibo }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','weibo']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.flickr %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://www.flickr.com/{{ author.flickr }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','flickr']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.codepen %}
+<p class="card-footer-item">
+  <span>
+    <a href="http://codepen.io/{{ author.codepen }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','codepen']" /></a>
+  </span>
+</p>
+{% endif %} {% if author.telegram %}
+<p class="card-footer-item">
+  <span>
+    <a href="https://t.me/{{ author.telegram }}" target="_blank" class="icon">
+      <font-awesome-icon :icon="['fab','telegram']" /></a>
+  </span>
+</p>
+{% endif %}
