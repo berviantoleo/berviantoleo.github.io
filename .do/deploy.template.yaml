@@ -5,5 +5,4 @@ spec:
      branch: development
      repo_clone_url: https://github.com/berviantoleo/berviantoleo.github.io.git
    name: jekyll-site
-   environment_slug: jekyll
-   build_command: yarn && yarn build && bundle exec jekyll build -d /public
+   dockerfile_path: Dockerfile
