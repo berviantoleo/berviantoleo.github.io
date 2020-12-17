@@ -1,8 +1,10 @@
 # Bervianto Leo Pratama Jekyll Themes
 
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/berviantoleo/berviantoleo.github.io/tree/development)
+
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Dependencies:
+## Dependencies
 
 - Bulma (production)
 - Webpack (dev only)
