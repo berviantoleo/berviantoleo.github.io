@@ -3,5 +3,5 @@ spec:
  static_sites:
  - git:
      branch: development
-     repo_clone_url: https://github.com/digitalocean/sample-html.git
+     repo_clone_url: https://github.com/berviantoleo/berviantoleo.github.io.git
    name: jekyll-site
