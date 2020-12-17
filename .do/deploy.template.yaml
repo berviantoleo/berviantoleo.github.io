@@ -5,3 +5,9 @@ spec:
      branch: development
      repo_clone_url: https://github.com/berviantoleo/berviantoleo.github.io.git
    name: jekyll-site
+   build_command:
+     - yarn
+     - yarn build
+     - gem install
+     - gem install bundler
+     - bundle exec jekyll build
