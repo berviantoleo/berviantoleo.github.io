@@ -5,8 +5,8 @@
     </b-navbar-item>
   </template>
   <template slot="start">
-    {% for page in site.pages %} {% if page.title and page.autogen == nil %}
-    <b-navbar-item href="{{page.url}}"> {{ page.title }} </b-navbar-item>
+    {% for sitePage in site.pages %} {% if sitePage.title and sitePage.autogen == nil %}
+    <b-navbar-item href="{{sitePage.url}}" {% if sitePage.url == page.url %} active {% endif %}> {{ sitePage.title }} </b-navbar-item>
     {% endif %} {% endfor %}
   </template>
 
