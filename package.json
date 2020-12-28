@@ -43,7 +43,7 @@
     "vue": "^2.6.12",
     "webpack": "^4.44.2",
     "webpack-bundle-analyzer": "^4.3.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.3.0"
   },
   "maintainers": [
     {
