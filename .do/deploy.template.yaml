@@ -1,9 +1,9 @@
 spec:
- name: jekyll-site
- static_sites:
- - git:
-     branch: development
-     repo_clone_url: https://github.com/berviantoleo/berviantoleo.github.io.git
-   name: jekyll-site
-   dockerfile_path: Dockerfile
-   output_dir: /app/public
+  name: jekyll-site
+  static_sites:
+    - git:
+        branch: development
+        repo_clone_url: https://github.com/berviantoleo/berviantoleo.github.io.git
+      name: jekyll-site
+      dockerfile_path: Dockerfile
+      output_dir: /app/public

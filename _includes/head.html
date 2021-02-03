@@ -35,7 +35,7 @@
   <title>{{ title }}</title>
 
   <!-- CSS files -->
-  <link rel="stylesheet" href="{{ site.url }}/dist/css/mystyles.css" />
+  <link rel="stylesheet" href="{{ site.url }}/dist/css/vendor.css" />
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
@@ -44,7 +44,7 @@
   <!-- Icons -->
   <!-- 32x32 -->
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-  
+
   {% if site.owner.google.adMob %}
   <script data-ad-client="{{ site.owner.google.adMob }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   {% endif %}
