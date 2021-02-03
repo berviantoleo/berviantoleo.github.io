@@ -28,9 +28,13 @@ import {
   faHome,
   faArrowLeft,
   faArrowRight,
+  faBriefcase,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+library.add(faBook);
+library.add(faBriefcase);
 library.add(faArrowLeft);
 library.add(faArrowRight);
 library.add(faEnvelope);
