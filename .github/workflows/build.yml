@@ -1,10 +1,10 @@
 name: Build Site
-on: 
+on:
   push:
     branches:
       - development
   pull_request:
-    branches: 
+    branches:
       - development
 jobs:
   build:
@@ -31,7 +31,7 @@ jobs:
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/jekyll:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
       - name: Deploy 🚀
-        if: ${{ github.event.name == 'push' && matrix.node-version == '14.x'}}
+        if: ${{ github.event_name == 'push' && matrix.node-version == '14.x'}}
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
