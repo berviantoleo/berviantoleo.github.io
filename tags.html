@@ -16,9 +16,7 @@ layout: main
             <div class="tags">
               {% for post in site.tags[tag_name] %}
               <span class="tag">
-                <a class="tag-item-title" href="{{ site.url }}{{ post.url }}"
-                  >{{post.title}}</a
-                >
+                <a class="tag-item-title" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
               </span>
               {% endfor %}
             </div>

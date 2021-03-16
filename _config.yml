@@ -77,7 +77,7 @@ pagination:
   enabled: true
   debug: false
   collection: posts
-  per_page: 6
+  per_page: 10
   permalink: page/:num/
   title: ":title - page :num of :max"
   limit: 0
@@ -90,4 +90,4 @@ pagination:
     before: 2
     after: 2
   extension: html
-  indexpage: index
+  indexpage: blog
