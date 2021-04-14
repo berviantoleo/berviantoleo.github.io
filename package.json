@@ -47,7 +47,7 @@
     "url-loader": "^4.1.1",
     "vue": "^2.6.12",
     "webpack": "^5.32.0",
-    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-bundle-analyzer": "^4.4.1",
     "webpack-cli": "^4.6.0"
   },
   "maintainers": [
