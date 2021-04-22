@@ -35,7 +35,19 @@ module.exports = {
         },
       },
     },
-    minimizer: [new TerserJSPlugin({}), new CssMinimizerPlugin()],
+    minimizer: [
+      new TerserJSPlugin({}),
+      new CssMinimizerPlugin({
+        minimizerOptions: {
+          preset: [
+            "default",
+            {
+              discardComments: { removeAll: true },
+            },
+          ],
+        },
+      }),
+    ],
   },
   resolve: {
     alias: {
