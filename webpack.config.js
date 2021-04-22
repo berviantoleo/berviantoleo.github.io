@@ -36,7 +36,14 @@ module.exports = {
       },
     },
     minimizer: [
-      new TerserJSPlugin({}),
+      new TerserJSPlugin({
+        terserOptions: {
+          format: {
+            comments: false,
+          },
+        },
+        extractComments: false,
+      }),
       new CssMinimizerPlugin({
         minimizerOptions: {
           preset: [

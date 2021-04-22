@@ -80,3 +80,4 @@ typings/
 .serverless
 
 dist/report.html
+dist/*.txt
