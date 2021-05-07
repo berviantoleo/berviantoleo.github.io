@@ -73,6 +73,10 @@ exclude:
   - webpack.config.js
   - vendor/
   - yarn.lock
+  - Dockerfile
+  - CODE_OF_CONDUCT.md
+  - tsconfig.json
+  - tsconfig.webpack.json
 pagination:
   enabled: true
   debug: false
