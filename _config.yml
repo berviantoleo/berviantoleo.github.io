@@ -78,6 +78,7 @@ exclude:
   - CODE_OF_CONDUCT.md
   - tsconfig.json
   - tsconfig.webpack.json
+  - test/
 pagination:
   enabled: true
   debug: false
