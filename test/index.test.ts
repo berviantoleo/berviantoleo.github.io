@@ -1,8 +1,8 @@
-import vue from '../src';
+import vue from "../src";
 
-describe('Test the main vue', () => {
-  test('Example test', () => {
+describe("Test the main vue", () => {
+  test("Example test", () => {
     expect(vue).toBeTruthy();
     expect(vue.$buefy).toBeTruthy();
-  })
-})
+  });
+});
