@@ -5,5 +5,5 @@ spec:
         branch: development
         repo_clone_url: https://github.com/berviantoleo/berviantoleo.github.io.git
       name: jekyll-site
-      dockerfile_path: Dockerfile
+      dockerfile_path: do.Dockerfile
       output_dir: /app/public
