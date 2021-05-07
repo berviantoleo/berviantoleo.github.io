@@ -1,6 +1,6 @@
 FROM node:lts-alpine as build
 WORKDIR /app
-COPY package.json package.json
+COPY package.json yarn.lock ./
 RUN yarn
 COPY . .
 RUN yarn build
