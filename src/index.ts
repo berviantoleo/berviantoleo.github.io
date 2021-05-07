@@ -33,30 +33,36 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faBook);
-library.add(faBriefcase);
-library.add(faArrowLeft);
-library.add(faArrowRight);
-library.add(faEnvelope);
-library.add(faHome);
-library.add(faGithub);
-library.add(faTwitter);
-library.add(faFacebook);
-library.add(faLinkedin);
-library.add(faInstagram);
-library.add(faTumblr);
-library.add(faStackOverflow);
-library.add(faLastfm);
-library.add(faDribbble);
-library.add(faPinterest);
-library.add(faFoursquare);
-library.add(faSteam);
-library.add(faYoutube);
-library.add(faSoundcloud);
-library.add(faWeibo);
-library.add(faFlickr);
-library.add(faCodepen);
-library.add(faTelegram);
+const allowedFa = [
+  faBook,
+  faBriefcase,
+  faArrowLeft,
+  faArrowRight,
+  faEnvelope,
+  faHome,
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faLinkedin,
+  faInstagram,
+  faTumblr,
+  faStackOverflow,
+  faLastfm,
+  faDribbble,
+  faPinterest,
+  faFoursquare,
+  faSteam,
+  faYoutube,
+  faSoundcloud,
+  faWeibo,
+  faFlickr,
+  faCodepen,
+  faTelegram,
+];
+
+for (const fa of allowedFa) {
+  library.add(fa);
+}
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
