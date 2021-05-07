@@ -26,16 +26,16 @@ jobs:
           yarn test
         env:
           CI: true
+      - name: Test Build the Custom docker
+        if: ${{ matrix.node-version == '14.x'}}
+        run: |
+          docker build . -t jekyll-custom
       - name: Build the site in the jekyll/builder container
         if: ${{ matrix.node-version == '14.x'}}
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/jekyll:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-      - name: Test Build the Custom docker
-        if: ${{ matrix.node-version == '14.x'}}
-        run: |
-          docker build . -t jekyll-custom
       - name: Deploy 🚀
         if: ${{ github.event_name == 'push' && matrix.node-version == '14.x'}}
         uses: JamesIves/github-pages-deploy-action@3.7.1
