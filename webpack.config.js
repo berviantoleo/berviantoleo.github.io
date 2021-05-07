@@ -7,7 +7,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserJSPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "js/[name].js",
@@ -57,12 +57,18 @@ module.exports = {
     ],
   },
   resolve: {
+    extensions: [".tsx", ".ts", ".js"],
     alias: {
       vue$: "vue/dist/vue.esm.js",
     },
   },
   module: {
     rules: [
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [ExtractCssChunks.loader, "css-loader", "sass-loader"],
