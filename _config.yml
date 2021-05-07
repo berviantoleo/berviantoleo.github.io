@@ -74,6 +74,7 @@ exclude:
   - vendor/
   - yarn.lock
   - Dockerfile
+  - do.Dockerfile
   - CODE_OF_CONDUCT.md
   - tsconfig.json
   - tsconfig.webpack.json
