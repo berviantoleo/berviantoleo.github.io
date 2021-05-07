@@ -5,7 +5,7 @@ RUN yarn
 COPY . .
 RUN yarn build
 
-FROM ruby:2.7-alpine
+FROM ruby:3-alpine
 WORKDIR /app
 COPY --from=build /app /app
 RUN apk add --no-cache build-base gcc bash cmake git
