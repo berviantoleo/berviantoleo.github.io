@@ -31,7 +31,13 @@ jobs:
         run: |
           docker build . -t jekyll-custom
           docker run --name jekyll-server -d -p 80:80 jekyll-custom nginx -g 'daemon off;'
-          curl -v 127.0.0.1
+          docker ps -a
+          curl --connect-timeout 5 \
+            --max-time 10 \
+            --retry 5 \
+            --retry-delay 0 \
+            --retry-max-time 40 \
+            'http://localhost'
           docker stop jekyll-server
           docker rm jekyll-server
       - name: Build the site in the jekyll/builder container
