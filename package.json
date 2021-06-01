@@ -35,7 +35,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
+    "@typescript-eslint/parser": "^4.26.0",
     "buefy": "^0.9.7",
     "bulma-extensions": "^6.2.7",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
