@@ -1,8 +1,8 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const ExtractCssChunks = require("extract-css-chunks-webpack-plugin");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-  .BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserJSPlugin = require("terser-webpack-plugin");
 
@@ -66,8 +66,13 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: [{ loader: "ts-loader", options: { configFile: "tsconfig.webpack.json" } }],
-        exclude: /node_modules/
+        use: [
+          {
+            loader: "ts-loader",
+            options: { configFile: "tsconfig.webpack.json" },
+          },
+        ],
+        exclude: /node_modules/,
       },
       {
         test: /\.(sa|sc|c)ss$/,
