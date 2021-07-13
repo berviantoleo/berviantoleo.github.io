@@ -32,11 +32,11 @@ jobs:
           docker build . -t jekyll-custom
           docker run --name jekyll-server -d -p 80:80 jekyll-custom nginx -g 'daemon off;'
           docker ps -a
-          curl --connect-timeout 5 \
-            --max-time 10 \
+          curl --connect-timeout 10 \
+            --max-time 100 \
             --retry 5 \
-            --retry-delay 0 \
-            --retry-max-time 40 \
+            --retry-delay 5 \
+            --retry-max-time 150 \
             'http://localhost'
           docker stop jekyll-server
           docker rm jekyll-server
