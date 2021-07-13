@@ -8,7 +8,7 @@ on:
       - development
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         node-version: [14.x]
@@ -26,22 +26,6 @@ jobs:
         run: |
           yarn build
           yarn test
-        env:
-          CI: true
-      - name: Test Build the Custom docker
-        if: ${{ matrix.node-version == '14.x'}}
-        run: |
-          docker build . -t jekyll-custom
-          docker run --name jekyll-server -d -p 80:80 jekyll-custom nginx -g 'daemon off;'
-          docker ps -a
-          curl --connect-timeout 10 \
-            --max-time 100 \
-            --retry 5 \
-            --retry-delay 5 \
-            --retry-max-time 150 \
-            'http://localhost'
-          docker stop jekyll-server
-          docker rm jekyll-server
       - name: Build the site in the jekyll/builder container
         if: ${{ matrix.node-version == '14.x'}}
         run: |
@@ -55,3 +39,21 @@ jobs:
           BRANCH: master # The branch the action should deploy to.
           FOLDER: _site # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
+  docker-build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test Build the Custom docker
+        run: |
+          docker build . -t jekyll-custom
+          docker run --name jekyll-server -d -p 80:80 jekyll-custom nginx -g 'daemon off;'
+          docker ps -a
+          curl --connect-timeout 10 \
+            --max-time 100 \
+            --retry 5 \
+            --retry-delay 5 \
+            --retry-max-time 150 \
+            'http://localhost'
+          docker stop jekyll-server
+          docker rm jekyll-server
+
