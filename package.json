@@ -39,7 +39,7 @@
     "buefy": "^0.9.8",
     "bulma-extensions": "^6.2.7",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "css-loader": "^6.0.0",
+    "css-loader": "^6.1.0",
     "css-minimizer-webpack-plugin": "^3.0.2",
     "eslint": "^7.30.0",
     "eslint-plugin-markdown": "^2.2.0",
