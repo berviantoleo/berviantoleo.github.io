@@ -48,6 +48,7 @@ jobs:
           docker build . -t jekyll-custom
           docker run --name jekyll-server -d -p 80:80 jekyll-custom nginx -g 'daemon off;'
           docker ps -a
+          sleep 10
           curl --connect-timeout 10 \
             --max-time 100 \
             --retry 5 \
