@@ -30,7 +30,7 @@
   "homepage": "https://github.com/berviantoleo/berviantoleo.github.io#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-brands-svg-icons": "^6.0.0",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "@types/jest": "^27.4.0",
