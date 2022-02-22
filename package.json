@@ -36,7 +36,7 @@
     "@types/jest": "^27.4.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "buefy": "^0.9.15",
+    "buefy": "^0.9.17",
     "bulma-extensions": "^6.2.7",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.6.0",
