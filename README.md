@@ -1,27 +1,41 @@
-# Bervianto Leo Pratama Jekyll Themes
+# Website
 
-[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/berviantoleo/berviantoleo.github.io/tree/development)
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+### Installation
 
-## Dependencies
+```
+$ yarn
+```
 
-- Bulma (production)
-- Webpack (dev only)
+### Local Development
 
-## Build Status
+```
+$ yarn start
+```
 
-| Github Action | Codacy | License |
-|:-------------:|:------:|:-------:|
-| ![Build Site](https://github.com/berviantoleo/berviantoleo.github.io/workflows/Build%20Site/badge.svg) | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1b2f154b275b453b8221e40d134ce3f0)](https://app.codacy.com/app/berviantoleo/berviantoleo.github.io?utm_source=github.com&utm_medium=referral&utm_content=berviantoleo/berviantoleo.github.io&utm_campaign=Badge_Grade_Dashboard) | [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io?ref=badge_shield) |
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## How to Deploy
+### Build
 
-1. Run `npm run build` first
-2. Enjoy your web!
+```
+$ yarn build
+```
 
-## LICENSE
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-The source code is licensed [MIT](http://opensource.org/licenses/mit-license.php). The website content is licensed [CC BY NC SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+### Deployment
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io?ref=badge_large)
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
