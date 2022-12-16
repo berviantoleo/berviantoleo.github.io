@@ -1,41 +1,34 @@
-# Website
+# Bervianto Leo Pratama Jekyll Themes
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/berviantoleo/berviantoleo.github.io/tree/development)
 
-### Installation
+## Dependencies
 
-```
-$ yarn
-```
+- [Docusaurus](https://docusaurus.io/docs)
 
-### Local Development
+## Build Status
 
-```
-$ yarn start
-```
+| Github Action | Codacy | License |
+|:-------------:|:------:|:-------:|
+| ![Build Site](https://github.com/berviantoleo/berviantoleo.github.io/workflows/Build%20Site/badge.svg) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/92f9913487b44205aea73f8f5b94a742)](https://www.codacy.com/gh/berviantoleo/berviantoleo.github.io/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=berviantoleo/berviantoleo.github.io&amp;utm_campaign=Badge_Grade) | [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io?ref=badge_shield) |
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Run Development
 
-### Build
+### NPM
 
-```
-$ yarn build
-```
+`npm run start`
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Yarn
 
-### Deployment
+`yarn start`
 
-Using SSH:
+## How to Deploy
 
-```
-$ USE_SSH=true yarn deploy
-```
+1. Run `npm run build` first
+2. Enjoy your web!
 
-Not using SSH:
+## LICENSE
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+The source code is licensed [MIT](http://opensource.org/licenses/mit-license.php). The website content is licensed [CC BY NC SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fberviantoleo%2Fberviantoleo.github.io?ref=badge_large)
