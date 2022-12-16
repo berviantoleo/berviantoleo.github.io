@@ -22,7 +22,7 @@ export default function Career() {
                   <div className="content">
                     <h3 className="title">{career.job}</h3>
                     <h5 className="subtitle">
-                      @ <a href={ career.link }>{career.name}</a>
+                      @ <a href={career.link}>{career.name}</a>
                     </h5>
                     <p>{career.description}</p>
                   </div>

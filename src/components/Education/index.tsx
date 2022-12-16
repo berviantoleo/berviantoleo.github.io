@@ -20,7 +20,7 @@ export default function Education() {
               <p>
                 <h3 className="title">{education.level}</h3>
                 <h4 className="subtitle">
-                  <a href={ education.link }>{education.name}</a>
+                  <a href={education.link}>{education.name}</a>
                 </h4>
               </p>
             </div>
