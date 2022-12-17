@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[8656],{8178:e=>{e.exports=JSON.parse('{"label":"besut-kode","permalink":"/blog/tags/besut-kode","allTagsPath":"/blog/tags","count":1}')}}]);
