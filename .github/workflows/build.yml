@@ -20,34 +20,28 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Yarn Install
         run: yarn --frozen-lockfile
-      - name: Lint
-        run: yarn lint
-      - name: Yarn build and test
+      - name: Typecheck
+        run: yarn typecheck
+      - name: Yarn build and copy CNAME
         run: |
           yarn build
-          yarn test
-      - name: Build the site in the jekyll/builder container
-        if: ${{ matrix.node-version == '16.x'}}
-        run: |
-          docker run --rm \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/jekyll:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+          cp CNAME build/CNAME
       - name: Deploy 🚀
         if: ${{ github.event_name == 'push' && matrix.node-version == '16.x'}}
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: _site # The folder the action should deploy.
+          FOLDER: build # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
   docker-build:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - name: Build Image
-        run: docker build . -t jekyll-custom
+        run: docker build . -t personal-blog
       - name: Run the Custom docker and test
         run: |
-          docker run --name jekyll-server -d -p 80:80 jekyll-custom nginx -g 'daemon off;'
+          docker run --name personal-blog -d -p 80:80 personal-blog nginx -g 'daemon off;'
           docker ps -a
           sleep 10
           curl --connect-timeout 10 \
@@ -56,8 +50,8 @@ jobs:
             --retry-delay 5 \
             --retry-max-time 150 \
             'http://localhost'
-          docker stop jekyll-server
-          docker rm jekyll-server
+          docker stop personal-blog
+          docker rm personal-blog
   docker-push:
     runs-on: ubuntu-22.04
     if: github.event_name == 'push'
@@ -82,7 +76,7 @@ jobs:
             berviantoleo/${{ env.IMAGE_NAME }}
             ghcr.io/${{ github.repository }}
         env:
-          IMAGE_NAME: berv-jekyll
+          IMAGE_NAME: berv-blog
       - name: Build and push Docker images
         uses: docker/build-push-action@v3
         with:

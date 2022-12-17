@@ -7,13 +7,6 @@ updates:
       time: "08:00"
       timezone: Asia/Jakarta
     open-pull-requests-limit: 100
-  - package-ecosystem: bundler
-    directory: "/"
-    schedule:
-      interval: daily
-      time: "08:00"
-      timezone: Asia/Jakarta
-    open-pull-requests-limit: 100
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
