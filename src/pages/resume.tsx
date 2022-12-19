@@ -7,10 +7,10 @@ import Education from "../components/Education";
 
 function ResumeMain() {
   return (
-    <section className="section" id="resume">
+    <section className="margin-top--md" id="resume">
       <div className="container">
-        <div className="columns is-multiline">
-          <div className="column is-9">
+        <div className="row is-multiline">
+          <div className="col col--8">
             <div className="content">
               <About />
             </div>
@@ -34,14 +34,9 @@ function ResumeMain() {
                 data-share-badge-id="61a336e9-92a7-4c8c-aeee-a5c07bf3fae5"
                 data-share-badge-host="https://www.credly.com"
               ></div>
-              <script
-                type="text/javascript"
-                async
-                src="//cdn.credly.com/assets/utilities/embed.js"
-              ></script>
             </div>
           </div>
-          <div className="column is-3">
+          <div className="col col--4">
             <div className="content">
               <Career />
             </div>
