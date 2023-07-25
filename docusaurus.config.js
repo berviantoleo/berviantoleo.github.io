@@ -105,10 +105,6 @@ const config = {
                 label: "Linkedin",
                 href: "https://www.linkedin.com/in/bervianto-leo-pratama/",
               },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/berviantoleo",
-              },
             ],
           },
           {
