@@ -16,6 +16,8 @@ Apa sih itu kasih? Apakah perasaan suka saya dengan lawan jenis? atau... Apakah 
 
 Apakah kasih itu cinta seperti yang kebanyakan orang bilang "Aku cinta padamu!"? Apakah cukup seperti itu? atau... Apakah ada makna kasih yang lain?
 
+<!--truncate-->
+
 ## Latar Belakang
 
 Saya pernah beberapa kali membuat sebuah artikel atau curhatan saya mengenai asmara saya. Artikel tersebut saya sudah hapus dan tidak ingat apakah saya pernah membuat cadangannya. Iya, mungkin ada beberapa orang yang pernah membacanya. Saya tidak akan menceritakan kisah lama tersebut. Saya memang tidak mau menyatakan secara langsung apalagi jika saya tidak yakin dia memiliki perasaan yang sama. Bisa saya bilang bahwa beberapa kali saya mencoba akhirnya gagal.
