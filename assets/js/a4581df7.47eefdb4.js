@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[7784],{151:e=>{e.exports=JSON.parse('{"label":"daily-life","permalink":"/blog/tags/daily-life","allTagsPath":"/blog/tags","count":5,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[9474],{3248:e=>{e.exports=JSON.parse('{"label":"bible","permalink":"/blog/tags/bible","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

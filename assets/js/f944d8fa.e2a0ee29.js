@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[6263],{4129:e=>{e.exports=JSON.parse('{"label":"2022","permalink":"/blog/tags/2022","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

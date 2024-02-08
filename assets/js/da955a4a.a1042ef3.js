@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[5412],{5844:e=>{e.exports=JSON.parse('{"label":"tinypress","permalink":"/blog/tags/tinypress","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
