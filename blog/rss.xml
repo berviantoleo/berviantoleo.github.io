@@ -4,10 +4,21 @@
         <title>Bervianto Leo Pratama Blog</title>
         <link>https://gh.berviantoleo.my.id/blog</link>
         <description>Bervianto Leo Pratama Blog</description>
-        <lastBuildDate>Sun, 18 Feb 2024 10:30:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Mar 2024 16:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Saya Sedih]]></title>
+            <link>https://gh.berviantoleo.my.id/blog/2024/03/01/saya-sedih</link>
+            <guid>https://gh.berviantoleo.my.id/blog/2024/03/01/saya-sedih</guid>
+            <pubDate>Fri, 01 Mar 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[Entah kenapa, perasaan saya hari ini sedih sekali.]]></description>
+            <content:encoded><![CDATA[<p>Entah kenapa, perasaan saya hari ini sedih sekali.</p>
+<p>Iya, udah itu saja mau yang saya sampaikan. Terima kasih!</p>]]></content:encoded>
+            <category>2024</category>
+            <category>diary</category>
+        </item>
         <item>
             <title><![CDATA[Harapan dan Perkataan adalah Doa]]></title>
             <link>https://gh.berviantoleo.my.id/blog/2024/02/18/harapan</link>

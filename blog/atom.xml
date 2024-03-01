@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gh.berviantoleo.my.id/blog</id>
     <title>Bervianto Leo Pratama Blog</title>
-    <updated>2024-02-18T10:30:00.000Z</updated>
+    <updated>2024-03-01T16:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gh.berviantoleo.my.id/blog"/>
     <subtitle>Bervianto Leo Pratama Blog</subtitle>
     <icon>https://gh.berviantoleo.my.id/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Saya Sedih]]></title>
+        <id>https://gh.berviantoleo.my.id/blog/2024/03/01/saya-sedih</id>
+        <link href="https://gh.berviantoleo.my.id/blog/2024/03/01/saya-sedih"/>
+        <updated>2024-03-01T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Entah kenapa, perasaan saya hari ini sedih sekali.]]></summary>
+        <content type="html"><![CDATA[<p>Entah kenapa, perasaan saya hari ini sedih sekali.</p>
+<p>Iya, udah itu saja mau yang saya sampaikan. Terima kasih!</p>]]></content>
+        <author>
+            <name>Bervianto Leo Pratama</name>
+            <uri>https://github.com/berviantoleo</uri>
+        </author>
+        <category label="2024" term="2024"/>
+        <category label="diary" term="diary"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Harapan dan Perkataan adalah Doa]]></title>
         <id>https://gh.berviantoleo.my.id/blog/2024/02/18/harapan</id>
