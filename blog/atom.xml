@@ -2,44 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gh.berviantoleo.my.id/blog</id>
     <title>Bervianto Leo Pratama Blog</title>
-    <updated>2024-03-15T15:00:00.000Z</updated>
+    <updated>2024-03-10T11:30:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gh.berviantoleo.my.id/blog"/>
     <subtitle>Bervianto Leo Pratama Blog</subtitle>
     <icon>https://gh.berviantoleo.my.id/img/favicon.png</icon>
-    <entry>
-        <title type="html"><![CDATA[Lelah]]></title>
-        <id>https://gh.berviantoleo.my.id/blog/2024/03/15/lelah</id>
-        <link href="https://gh.berviantoleo.my.id/blog/2024/03/15/lelah"/>
-        <updated>2024-03-15T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Halo yang saya rindukan!]]></summary>
-        <content type="html"><![CDATA[<p>Halo yang saya rindukan!</p>
-<p>Saya hanya mau bercerita. Saya sedang lelah. Lelah dengan sangat. Berharap bisa bersandar, namun saya telah salah sandaran. Saya bersandar pada kayu yang rapuh.</p>
-<p>Saya tidak tau kapan saya akan menyatakannya. Entah mengapa saya sangat takut dengan penolakan.</p>
-<p>Walaupun, saya telah menetapkan ini adalah yang terakhir. Saya memang sudah gila.</p>
-<p>Saya serius, saya mau ini menjadi yang terakhir.</p>
-<p>Saya masih ingat, beberapa hari ini, saya tidak fokus hanya takut penolakan. Jelas penolakan karena saya tidak pernah mendekatinya.</p>
-<p>Ya, kalau akhirnya penolakan. Saya akan tetap menjalani sesuai komitmen saya.</p>
-<p>Seperti saya pernah menuliskan, saya selalu mempersiapkan apapun yang akan terjadi. Entah itu penolakan atau justru sebaliknya.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="latar-belakang">Latar Belakang<a href="https://gh.berviantoleo.my.id/blog/2024/03/15/lelah#latar-belakang" class="hash-link" aria-label="Direct link to Latar Belakang" title="Direct link to Latar Belakang">​</a></h2>
-<p>Oke, kembali lagi, karena saya bukan mau menyatakan perasaan di sini. Namun, saya telah lelah. Lelah 100 kali lipat. Sebagai seorang yang tidak memiliki sandaran seperti keluarga, saya seperti tangga yang siap jatuh ke tanah. Sekuat apapun tangga itu bisa berdiri.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="salah-sandaran">Salah Sandaran<a href="https://gh.berviantoleo.my.id/blog/2024/03/15/lelah#salah-sandaran" class="hash-link" aria-label="Direct link to Salah Sandaran" title="Direct link to Salah Sandaran">​</a></h2>
-<p>Ya, salah sandaran. Buat apa bersandar pada manusia, selalu mengecewakan!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pasrah">Pasrah?<a href="https://gh.berviantoleo.my.id/blog/2024/03/15/lelah#pasrah" class="hash-link" aria-label="Direct link to Pasrah?" title="Direct link to Pasrah?">​</a></h2>
-<p>Ya, kalau yang saya baca, hanya bisa bersyukur. Sejauh apa saya perlu bersyukur?</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tidak-ada-jalan">Tidak ada jalan<a href="https://gh.berviantoleo.my.id/blog/2024/03/15/lelah#tidak-ada-jalan" class="hash-link" aria-label="Direct link to Tidak ada jalan" title="Direct link to Tidak ada jalan">​</a></h2>
-<p>Ya, akhirnya, akhirnya. Akhirnya saya tidak berbuat apa-apa. Walaupun sudah mau gila rasanya.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simpulan">Simpulan<a href="https://gh.berviantoleo.my.id/blog/2024/03/15/lelah#simpulan" class="hash-link" aria-label="Direct link to Simpulan" title="Direct link to Simpulan">​</a></h2>
-<p>Oke, udah. Saya mau curhat itu aja. Terima kasih sudah membaca.</p>
-<hr>
-<p>Walaupun saya hanya bisa melihatnya dari jauh. 🙃</p>]]></content>
-        <author>
-            <name>Bervianto Leo Pratama</name>
-            <uri>https://github.com/berviantoleo</uri>
-        </author>
-        <category label="2024" term="2024"/>
-        <category label="diary" term="diary"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hidup Gereja]]></title>
         <id>https://gh.berviantoleo.my.id/blog/2024/03/10/hidup-gereja</id>
@@ -72,47 +39,6 @@
 <p>Ya, sekarang saya hanya bisa bersyukur karena Tuhan terus merawat dan menjaga saya. Bukan berarti saya tidak akan pernah mendapatkan kejadian buruk.</p>
 <p>Banyak sekali, namun mungkin saya tidak pernah ceritakan di sini maupun di media sosial.</p>
 <p>Sekali lagi, saya hanya bisa mengucap syukur.</p>]]></content>
-        <author>
-            <name>Bervianto Leo Pratama</name>
-            <uri>https://github.com/berviantoleo</uri>
-        </author>
-        <category label="2024" term="2024"/>
-        <category label="diary" term="diary"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mimpi? Kok Bisa Kejadian?]]></title>
-        <id>https://gh.berviantoleo.my.id/blog/2024/03/08/mimpi</id>
-        <link href="https://gh.berviantoleo.my.id/blog/2024/03/08/mimpi"/>
-        <updated>2024-03-08T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Mimpi? Apa itu? Kalau dalam KBBI, mimpi adalah sesuatu yang terlihat atau dialami dalam tidur.]]></summary>
-        <content type="html"><![CDATA[<p>Mimpi? Apa itu? Kalau dalam <a href="https://kbbi.kemdikbud.go.id/entri/Mimpi" target="_blank" rel="noopener noreferrer">KBBI</a>, mimpi adalah sesuatu yang terlihat atau dialami dalam tidur.
-Iya, jadi saya ada merasakan <a href="https://kbbi.kemdikbud.go.id/entri/dejavu" target="_blank" rel="noopener noreferrer">dejavu</a>, dalam KBBI, yaitu perasaan bahwa apa yang dialami sekarang pernah terjadi pada masa lampau.
-Saya merasakan kalau ini udah pernah terjadi, tetapi pada mimpi saya. Saya bisa mengingat beberapa mimpi, walaupun tidak semuanya.
-Sekarang mungkin sudah banyak lupa apa saja mimpi yang akhirnya terjadi. Itu biasanya disebut sebagai <a href="https://psycnet.apa.org/record/2009-10466-002" target="_blank" rel="noopener noreferrer">Precognitive Dream</a>.</p>
-<p>Jujur aja, saya tidak begitu mau menceritakan mimpi karena tidak pasti akan terjadi. Bisa saja tidak akan terjadi, bisa saja belum terjadi.
-Saya pasti akan menyimpan mimpi itu sampai kejadian. Saat kejadian, baru saya berani menceritakannya. Kalau saya menceritakannya secara langsung, saya takut malah jadi peramal.</p>
-<p>Ada beberapa hal yang mendorong saya membawa atau menceritakan hal ini. Saya beberapa hari lalu tidak bisa tidur dengan baik. Ini pernah terjadi dalam mimpi saya.
-Sekitar 2 hari saya tidak bisa tidur dengan baik, saya merasakan dejavu dengan beberapa kejadian seperti apa yang saya lakukan saat yang tidak bisa tidur itu dan beberapa kejadian setelahnya.</p>
-<p>Setiap kali saya merasakan Precognitive Dream ini, terkadang saya akan terbawa perasaan (baper). Tepat kemarin, saya akhirnya sakit kepala karena sulit tidur itu, sehingga saya mulai merasakan baper itu.</p>
-<p>Oh iya, ada satu mimpi yang sebenarnya saya harapkan akan terjadi. Namun, bisa saja tidak terjadi. Belum mau saya ceritakan ya, karena tidak kejadian!</p>
-<p>Ada lagi, saya ada mimpi mengenai "chat" maupun "meeting". Mantep ya, udah modern mimpi-nya. Iya, tapi bener aja, saya kembali merasakan dejavu. Lah, perasaan saya pernah dapet chat ini, tapi kapan ya. Lalu, lah, perasaan saya pernah meeting ini, dengan orang ini, topik yang sama, kok kayak dejavu ya. Jujur ya, semakin banyak mimpi yang kejadian, saya jadi semakin takut bukan senang. Saya takut, saya merasa bisa melihat masa depan. Makanya, saya berusaha untuk biasa saja saat beberapa mimpi yang menjadi nyata.</p>
-<p>Udah sih, itu saja yang mau saya sampaikan sebelum saya kembali sibuk dengan banyak hal! Sayonara!</p>
-<p>Semoga mimpi yang saya harapkan itu terjadi ya. Hehe...</p>]]></content>
-        <author>
-            <name>Bervianto Leo Pratama</name>
-            <uri>https://github.com/berviantoleo</uri>
-        </author>
-        <category label="2024" term="2024"/>
-        <category label="diary" term="diary"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Saya Sedih]]></title>
-        <id>https://gh.berviantoleo.my.id/blog/2024/03/01/saya-sedih</id>
-        <link href="https://gh.berviantoleo.my.id/blog/2024/03/01/saya-sedih"/>
-        <updated>2024-03-01T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Entah kenapa, perasaan saya hari ini sedih sekali.]]></summary>
-        <content type="html"><![CDATA[<p>Entah kenapa, perasaan saya hari ini sedih sekali.</p>
-<p>Iya, udah itu saja mau yang saya sampaikan. Terima kasih!</p>]]></content>
         <author>
             <name>Bervianto Leo Pratama</name>
             <uri>https://github.com/berviantoleo</uri>
@@ -169,36 +95,6 @@ Tiap p'ristiswa ku yakin, Dia atur yang terbaik.</p>
 <p><a href="https://kidungindo.blogspot.com/2012/03/no-508-hiburan-dalam-pencobaan-pimpinan.html" target="_blank" rel="noopener noreferrer">Sumber</a></p>
 <p>Jadi, ya saya tidak begitu banyak harapan yang secara materi. Saya takut saya akan menjadi rakus dan menginginkan terlalu banyak dan mencari yang "nilai"nya lebih lagi dan lagi.</p>
 <p>Terima kasih sudah membaca "curhat" singkat ini. Ciaw!</p>]]></content>
-        <author>
-            <name>Bervianto Leo Pratama</name>
-            <uri>https://github.com/berviantoleo</uri>
-        </author>
-        <category label="2024" term="2024"/>
-        <category label="diary" term="diary"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sebenarnya, apa itu kasih?]]></title>
-        <id>https://gh.berviantoleo.my.id/blog/2024/02/04/what-is-love</id>
-        <link href="https://gh.berviantoleo.my.id/blog/2024/02/04/what-is-love"/>
-        <updated>2024-02-04T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Apa sih itu kasih? Apakah perasaan suka saya dengan lawan jenis? atau... Apakah perasaan mengasihi saudara saya? atau... Apakah perasaan hormat terhadap orang tua saya? Sebenarnya, apa itu kasih?]]></summary>
-        <content type="html"><![CDATA[<p>Apa sih itu kasih? Apakah perasaan suka saya dengan lawan jenis? atau... Apakah perasaan mengasihi saudara saya? atau... Apakah perasaan hormat terhadap orang tua saya? Sebenarnya, apa itu kasih?</p>
-<p>Apakah kasih itu cinta seperti yang kebanyakan orang bilang "Aku cinta padamu!"? Apakah cukup seperti itu? atau... Apakah ada makna kasih yang lain?</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="latar-belakang">Latar Belakang<a href="https://gh.berviantoleo.my.id/blog/2024/02/04/what-is-love#latar-belakang" class="hash-link" aria-label="Direct link to Latar Belakang" title="Direct link to Latar Belakang">​</a></h2>
-<p>Saya pernah beberapa kali membuat sebuah artikel atau curhatan saya mengenai asmara saya. Artikel tersebut saya sudah hapus dan tidak ingat apakah saya pernah membuat cadangannya. Iya, mungkin ada beberapa orang yang pernah membacanya. Saya tidak akan menceritakan kisah lama tersebut. Saya memang tidak mau menyatakan secara langsung apalagi jika saya tidak yakin dia memiliki perasaan yang sama. Bisa saya bilang bahwa beberapa kali saya mencoba akhirnya gagal.</p>
-<p>Setelah kegagalan tersebut, saya berusaha "move on". Sesuatu yang sudah tidak mungkin, mencari hal yang masih mungkin. Saya pada akhirnya tidak begitu mencari dan tidak begitu aktif mencari. Bisa dibilang hanya akan menjadi pasif dan kembali ke mode "secret admirer", mode yang mungkin menyebalkan bagi beberapa lawan jenis. Walaupun, memang pencarian saya lebih ke sesuatu yang berkomitmen, bukan yang sekedar main-main, sekedar mau kenal, dll.</p>
-<p>Mengapa pertanyaan saya seperti itu? Bagi beberapa korban "broken home", mungkin akan paham makna pertanyaan tersebut. Bayangkan, orang tua Anda terus berkelahi atau bertengkar di depan Anda. Bayangkan, orang tua Anda tidak lagi bersama. Itu yang kami hadapi, bukan lagi membayangkan, tapi itu yang terjadi. Bagi saya, saya jadi mempertanyakan apa itu mengasihi? Apa itu cinta? Mengapa pada akhirnya berpisah dengan tidak baik?</p>
-<p>Bagi beberapa orang akan mengatakan "Allah itu kasih". Benar, saya merasakan kasih itu. Mengapa? Karena kondisi saya yang buruk ini, Dia tetap menjaga dan merawat saya. Saya yang sering membuat kesalahan ini, Dia tidak serta-merta membuat saya tidak bisa lagi memandang-Nya. Bahkan, ingin sekali hubungan saya dengan Dia ini tetap terjaga. Walaupun, saya yang sering kabur dari Dia.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="apakah-secret-admirer-juga-kasih">Apakah "Secret Admirer" juga kasih?<a href="https://gh.berviantoleo.my.id/blog/2024/02/04/what-is-love#apakah-secret-admirer-juga-kasih" class="hash-link" aria-label="Direct link to Apakah &quot;Secret Admirer&quot; juga kasih?" title="Direct link to Apakah &quot;Secret Admirer&quot; juga kasih?">​</a></h2>
-<p>Jauh sekali ya. Ya, mungkin ini jadi pertanyaan "bodoh" saya. Saya terpikir hal ini. Saya tidak bisa menyatakan hal ini. Karena, saya memang sedang suka dengan seseorang, namun saya tidak yakin dia akan mau, dia akan setuju, bahkan saya tidak yakin orang lain juga setuju. Saya menyukai seseorang yang umurnya lebih tua dari saya mungkin 4-5 tahun di atas saya. Well, saya pernah sih beberapa kali, namun yang ini mungkin agak berbeda ya. Karena hal ini sesuatu berkenaan dengan komitmen yang saya sampaikan sebelumnya.</p>
-<p>Walaupun dulu, pernah suka dengan yang mungkin lebih tua 1-2 tahun, dan itu ya merasakan sedikit perbedaan, saat berkenalan dengan mereka, saya menjadi seseorang adik kecil. hhehe.. Apakah saya jika berkenalan dengan orang tersebut juga akan menjadi "adiknya"? Sekali lagi, saya sih berharap mencari yang bisa berkomitmen, namun jika tidak, itu akan menghabiskan waktu saja.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="perasaan-wajar">Perasaan Wajar<a href="https://gh.berviantoleo.my.id/blog/2024/02/04/what-is-love#perasaan-wajar" class="hash-link" aria-label="Direct link to Perasaan Wajar" title="Direct link to Perasaan Wajar">​</a></h2>
-<p>Bagi orang, perasaan yang wajar (bagi laki-laki) jika suka dengan orang yang lebih muda atau seumuran. Ya, saya juga pernah, namun, sepertinya itu tidaklah berhasil.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="saya-tidak-tahu-apa-yang-perlu-dilakukan">Saya Tidak Tahu Apa yang Perlu Dilakukan<a href="https://gh.berviantoleo.my.id/blog/2024/02/04/what-is-love#saya-tidak-tahu-apa-yang-perlu-dilakukan" class="hash-link" aria-label="Direct link to Saya Tidak Tahu Apa yang Perlu Dilakukan" title="Direct link to Saya Tidak Tahu Apa yang Perlu Dilakukan">​</a></h2>
-<p>Ya, intinya, sekarang saya tidak tau apa yang perlu dilakukan. Di satu sisi, saya tidak mau menutup kemungkinan lebih banyak, di satu sisi, saya terus bertanya-tanya sebenarnya apakah ada kasih dari manusia itu? Saya tidak mempertanyakan Kasih Allah ya, namun bagaimana kasih dari manusia? Apakah ada? Jika ada, mengapa saya menemukan beberapa kasus yang menyedihkan seperti "broken home", dll.</p>
-<p>Saya memang bertanya-tanya, namun, bukan sesuatu yang harus dijawab saat ini. Saya tidak tahu arahnya akan kemana kisah "asmara" saya ini. Saya hanya berharap seseorang yang akan saya temukan ini adalah seseorang yang mengasihi Tuhan dan mengandalkan Tuhan. Karena, saya selalu gagal, saya selalu bersalah, jika berharap pada saya, itu sama saja mengharapkan kegagalan.</p>
-<p>Sedikit cerita dari saya, saya mungkin sudah terlalu pusing menyimpan hal ini. Saya juga sudah bertanya-tanya, apakah ini layak untuk ditulis atau tidak atau akan berakhir seperti cerita "vulgar" saya sebelumnya yang akhirnya saya hapus. Namun, mungkin yang ini tidak akan saya hapus, karena ini menjadi saksi bagi diri saya sendiri untuk kedepannya.</p>
-<p>Terima kasih sudah membaca tulisan "curhat" tidak penting ini. Semoga Tuhan memberkati.</p>]]></content>
         <author>
             <name>Bervianto Leo Pratama</name>
             <uri>https://github.com/berviantoleo</uri>
@@ -285,103 +181,6 @@ Ini adalah permulaan</p>
         </author>
         <category label="2022" term="2022"/>
         <category label="recap" term="recap"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Doa]]></title>
-        <id>https://gh.berviantoleo.my.id/blog/2020/01/11/doa</id>
-        <link href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa"/>
-        <updated>2020-01-11T07:36:00.000Z</updated>
-        <summary type="html"><![CDATA[I. Makna Doa]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="i-makna-doa">I. Makna Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#i-makna-doa" class="hash-link" aria-label="Direct link to I. Makna Doa" title="Direct link to I. Makna Doa">​</a></h2>
-<p>A. Pemanduan Doa dengan Pembacaan Alkitab</p>
-<p>B. Makna Doa</p>
-<ol>
-<li>Doa adalah Saling Kontak Antara Manusia Dengan Allah</li>
-<li>Doa adalah Manusia Menghirup Allah, Mendapatkan Allah dan Didapatkan Allah</li>
-<li>Doa adalah Manusia Berkerja Sama dengan Allah, Membiarkan Allah Mengekspresikan Diri-Nya Sendiri dan Kehendak-Nya Melalui Manusia, untuk Menggenapkan Kehendak-Nya</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ii-prinsip-doa">II. Prinsip Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#ii-prinsip-doa" class="hash-link" aria-label="Direct link to II. Prinsip Doa" title="Direct link to II. Prinsip Doa">​</a></h2>
-<p>A. Doa Harus Dimulai dari Allah, Bukan dari Manusia</p>
-<p>B. Doa adalah Allah Melalui Manusia dan Doanya</p>
-<p>C. Doa adalah Manusia dan Doanya Melalui Allah</p>
-<p>D. Doa adalah Manusia dan Allah, Allah dan Manusia Berdoa Bersama</p>
-<p>E. Berdoa Bukan untuk Diri Manusia tetapi untuk Allah</p>
-<p>F. Doa adalah Pernyataan Maksud Hati Allah</p>
-<p>G. Doa adalah Kehendak Allah Masuk ke dalam Kehendak Manusia</p>
-<p>H. Doa adalah Hasrat Hati Allah Melalui Manusia dan Kembali kepada Allah</p>
-<p>I. Doa adalah Melepaskan Beban Kita di Hadapan Allah</p>
-<p>J. Tujuan Doa adalah agar Allah Mendapatkan Kemuliaan</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="iii-manusia-doa">III. Manusia Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#iii-manusia-doa" class="hash-link" aria-label="Direct link to III. Manusia Doa" title="Direct link to III. Manusia Doa">​</a></h2>
-<p>A. Harus Menjadi Orang yang Mencari Allah dan Kehendak Allah</p>
-<p>B. Harus Menjadi Orang yang Hidup di dalam Allah dan Selalu Memiliki Persekutuan dengan-Nya</p>
-<p>C. Harus Menjadi Orang yang Selalu Menanti di Hadapan Allah</p>
-<p>D. Harus Menjadi Orang yang Meletakkan Segala Sesuatu yang Berasal dari Diri Sendiri, Terutama Kemampuan dan Opininya</p>
-<p>E. Harus Menjadi Orang yang Rela Membayar Harga Apa Pun untuk Menjawab Seluruh Permintaan Allah</p>
-<p>F. Harus Menjadi Orang yang Kehidupannya Serasi dengan Doanya</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="iv-hayat-doa">IV. Hayat Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#iv-hayat-doa" class="hash-link" aria-label="Direct link to IV. Hayat Doa" title="Direct link to IV. Hayat Doa">​</a></h2>
-<p>A. Hayat ini adalah Hayat Allah di dalam Kita</p>
-<p>B. Hayat ini Kudus</p>
-<p>C. Hayat ini Mutlak Membenci Dosa</p>
-<p>D. Hayat ini Menyukai Terang</p>
-<p>E. Hayat ini Memiliki Hukum Doa</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v-roh-doa">V. Roh Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#v-roh-doa" class="hash-link" aria-label="Direct link to V. Roh Doa" title="Direct link to V. Roh Doa">​</a></h2>
-<p>A. Berdoa harus di dalam roh</p>
-<p>B. Berdoa harus melatih roh</p>
-<p>C. Roh harus murni</p>
-<p>D. Roh harus segar, tidak tua dan usang</p>
-<p>E. Roh harus membubung</p>
-<p>F. Roh harus lincah</p>
-<p>G. Roh harus bebas</p>
-<p>H. Roh harus ringan dan leluasa</p>
-<p>I. Roh harus penuh perhentian dan teduh</p>
-<p>J. Roh harus terbuka</p>
-<p>K. Roh harus unggul</p>
-<p>L. Roh harus stabil</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="vi-pikiran-doa">VI. Pikiran Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#vi-pikiran-doa" class="hash-link" aria-label="Direct link to VI. Pikiran Doa" title="Direct link to VI. Pikiran Doa">​</a></h2>
-<p>A. Kedudukan Pikiran</p>
-<p>B. Pembauran Pikiran</p>
-<p>C. Kejernihan Pikiran</p>
-<p>D. Konsentrasi Pikiran</p>
-<p>E. Ketenangan Pikiran</p>
-<p>F. Mengarah Pikiran kepada Hal-Hal Rohani</p>
-<p>G. Pengaturan Roh atas Pikiran</p>
-<p>H. Pikiran Roh</p>
-<p>I. Roh Pikiran</p>
-<p>J. Penerjemahan Pikiran atas Perasaan Roh</p>
-<p>K. Pengaturan Rohani dari Pikiran</p>
-<p>L. Doa Pikiran</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="vii-emosi-doa">VII. Emosi Doa<a href="https://gh.berviantoleo.my.id/blog/2020/01/11/doa#vii-emosi-doa" class="hash-link" aria-label="Direct link to VII. Emosi Doa" title="Direct link to VII. Emosi Doa">​</a></h2>
-<p>A. Kedudukan Emosi</p>
-<p>...</p>]]></content>
-        <author>
-            <name>Bervianto Leo Pratama</name>
-            <uri>https://github.com/berviantoleo</uri>
-        </author>
-        <category label="bible" term="bible"/>
-        <category label="truth" term="truth"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[25 December 2018]]></title>
-        <id>https://gh.berviantoleo.my.id/blog/2018/12/25/25-december-2018</id>
-        <link href="https://gh.berviantoleo.my.id/blog/2018/12/25/25-december-2018"/>
-        <updated>2018-12-25T11:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Thank you God!]]></summary>
-        <content type="html"><![CDATA[<p>Thank you God!</p>
-<p>Hari ini saya pergi ke Ciwidey. Cukup bagus. :)</p>
-<p>Ini ada sedikit foto-fotonya.</p>
-<p><img decoding="async" loading="lazy" alt="IMG-20181225-WA0007.jpg" src="https://gh.berviantoleo.my.id/assets/images/IMG-20181225-WA0007-594afdac65842093eaf20d090a9e2a03.jpg" width="1040" height="780" class="img_ev3q"></p>
-<p>Ini bersama saudara-saudari muda gereja di Bandung.</p>
-<p><img decoding="async" loading="lazy" alt="IMG-20181225-WA0011.jpg" src="https://gh.berviantoleo.my.id/assets/images/IMG-20181225-WA0011-fa16b1a10153dc55de9024a1514ee55c.jpg" width="1152" height="864" class="img_ev3q"></p>
-<p>Ini juga, lebih ramai ya! :)</p>
-<p><img decoding="async" loading="lazy" alt="IMG_20181225_085536_HDR.jpg" src="https://gh.berviantoleo.my.id/assets/images/IMG_20181225_085536_HDR-91ab92bfaa32e241c77793b51a55e7a6.jpg" width="4160" height="2340" class="img_ev3q"></p>
-<p>Nah, kalau ini pemandangannya!</p>
-<p>Sukacita bisa bersama-sama mereka. Puji Tuhan!</p>]]></content>
-        <author>
-            <name>Bervianto Leo Pratama</name>
-            <uri>https://github.com/berviantoleo</uri>
-        </author>
-        <category label="daily-life" term="daily-life"/>
-        <category label="experience" term="experience"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Thanks God]]></title>
