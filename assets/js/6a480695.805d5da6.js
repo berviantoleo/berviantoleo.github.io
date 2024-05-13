@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[3757],{626:e=>{e.exports=JSON.parse('{"label":"recap","permalink":"/blog/tags/recap","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
