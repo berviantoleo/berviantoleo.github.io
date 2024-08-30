@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkberviantoleo_github_io=self.webpackChunkberviantoleo_github_io||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Bervianto Leo Pratama","title":"Software Engineer","url":"https://github.com/berviantoleo","imageURL":"https://github.com/berviantoleo.png","key":"berviantoleo","page":null,"count":0}]}')}}]);
