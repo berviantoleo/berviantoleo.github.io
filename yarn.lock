@@ -2038,7 +2038,7 @@
   resolved "https://registry.yarnpkg.com/@docusaurus/tsconfig/-/tsconfig-3.6.2.tgz#a6d3fec19ae45a67da678b54c019b0e3839b6711"
   integrity sha512-TWLkyYHBYhIJNcXCEc3D1M9R8UFV4IZ82rGef5U9mE1ZrcgDUlZxYaYdoSuHrPrzPRIl3orjmpscO2FAk2gdZw==
 
-"@docusaurus/types@3.6.1", "@docusaurus/types@^3.6.0":
+"@docusaurus/types@3.6.1":
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-3.6.1.tgz#0e55a0a51a3e55658b0845af83d5fe17c495978e"
   integrity sha512-hCB1hj9DYutVYBisnPNobz9SzEmCcf1EetJv09O49Cov3BqOkm+vnnjB3d957YJMtpLGQoKBeN/FF1DZ830JwQ==
@@ -2053,7 +2053,7 @@
     webpack "^5.95.0"
     webpack-merge "^5.9.0"
 
-"@docusaurus/types@3.6.2":
+"@docusaurus/types@3.6.2", "@docusaurus/types@^3.6.2":
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-3.6.2.tgz#bd69c4c99b535b67f01276dc186622e0b1fc1305"
   integrity sha512-117Wsk6xXrWEAsCYCXS3TGJv5tkdIZDcd7T/V0UJvKYmY0gyVPPcEQChy8yTdjbIkbB2q4fa7Jpox72Qv86mqQ==
