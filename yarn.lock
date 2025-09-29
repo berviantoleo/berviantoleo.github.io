@@ -2009,10 +2009,10 @@
     fs-extra "^11.1.1"
     tslib "^2.6.0"
 
-"@docusaurus/tsconfig@3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/tsconfig/-/tsconfig-3.9.0.tgz#c076e8289337ad774231b06244b0716f9a7a8268"
-  integrity sha512-DPD1NcEAqBov2e2Rgwy/oNuExbWzU/eGc+DEAxl8tttfQ+xxN6iFXNMCzBuMeAvMC8OwUO+i9mZHYFP95903DA==
+"@docusaurus/tsconfig@3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@docusaurus/tsconfig/-/tsconfig-3.9.1.tgz#a39cb74021f16dd4794db9182de812303817528e"
+  integrity sha512-stdzM1dNDgRO0OvxeznXlE3N1igUoeHPNJjiKqyffLizgpVgNXJBAWeG6fuoYiCH4udGUBqy2dyM+1+kG2/UPQ==
 
 "@docusaurus/types@3.9.0":
   version "3.9.0"
