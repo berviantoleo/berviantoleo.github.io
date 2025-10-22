@@ -65,8 +65,12 @@ const config = {
           src: "img/favicon.png",
         },
         items: [
-          { to: "https://gp.berviantoleo.my.id/blog/", label: "Blog", position: "left" },
           { to: "/resume", label: "About", position: "left" },
+          {
+            href: "https://gp.berviantoleo.my.id/blog/",
+            label: "Blog",
+            position: "right"
+          },
           {
             href: "https://github.com/berviantoleo/berviantoleo.github.io",
             label: "GitHub",
@@ -112,7 +116,7 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "https://gp.berviantoleo.my.id/blog/",
+                href: "https://gp.berviantoleo.my.id/blog/",
               },
               {
                 label: "GitHub",
