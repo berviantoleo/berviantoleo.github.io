@@ -8,10 +8,10 @@ on:
       - main
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [22.x, 24.x]
     steps:
       - uses: actions/checkout@v5
       - name: Use Node.js ${{ matrix.node-version }}
@@ -27,7 +27,7 @@ jobs:
           yarn build
           cp CNAME build/CNAME
       - name: Deploy 🚀
-        if: ${{ github.event_name == 'push' && matrix.node-version == '18.x'}}
+        if: ${{ github.event_name == 'push' && matrix.node-version == '24.x'}}
         uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           BRANCH: gh-pages # The branch the action should deploy to.
