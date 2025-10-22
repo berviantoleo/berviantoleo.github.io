@@ -65,7 +65,7 @@ const config = {
           src: "img/favicon.png",
         },
         items: [
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "https://gp.berviantoleo.my.id/blog/", label: "Blog", position: "left" },
           { to: "/resume", label: "About", position: "left" },
           {
             href: "https://github.com/berviantoleo/berviantoleo.github.io",
