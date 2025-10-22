@@ -50,7 +50,7 @@ function ResumeMain() {
   );
 }
 
-export default function Resume(): JSX.Element {
+export default function Resume(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
