@@ -112,7 +112,7 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                to: "https://gp.berviantoleo.my.id/blog/",
               },
               {
                 label: "GitHub",
