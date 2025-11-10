@@ -28,7 +28,7 @@ jobs:
           cp CNAME build/CNAME
       - name: Deploy 🚀
         if: ${{ github.event_name == 'push' && matrix.node-version == '24.x'}}
-        uses: JamesIves/github-pages-deploy-action@v4.7.3
+        uses: JamesIves/github-pages-deploy-action@v4.7.4
         with:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
